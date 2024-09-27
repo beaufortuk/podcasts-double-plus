@@ -1,14 +1,16 @@
 # config.py
 
+from dotenv import load_dotenv
 import os
 
-# Hugging Face Token
-HUGGING_FACE_TOKEN = os.getenv('HUGGING_FACE_TOKEN')
+# Load environment variables from the .env file
+load_dotenv()
 
-if HUGGING_FACE_TOKEN is None:
-    print("Hugging Face token not found. Please set the 'HUGGING_FACE_TOKEN' environment variable.")
-    # Optionally, you can exit the script or set a default value
-    # sys.exit(1)
+# Get the RSS feed URL from the environment variable
+PODCAST_RSS_FEED = os.getenv('PODCAST_RSS_FEED')
+
+# Get the Hugging Face API token from the environment variable
+HUGGING_FACE_TOKEN = os.getenv('HUGGING_FACE_TOKEN')
 
 # Directories
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -22,5 +24,4 @@ EMBEDDINGS_DIR = os.path.join(BASE_DIR, 'embeddings')
 # Directory for assets (e.g., known speaker audio samples)
 ASSETS_DIR = os.path.join(BASE_DIR, 'assets')
 
-# Other configuration variables can be added here
-PODCAST_RSS_FEED = "https://feeds.economist.com/v1/rss/the-economist-podcasts/52522270-d2b1-484e-929f-d9bf2356ab7e"
+
