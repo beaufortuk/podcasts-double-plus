@@ -1,0 +1,324 @@
+{
+    "Arrested_development_why_the_world’s_poorest_are_being_left_behind": [
+        [
+            0,
+            "0.006*\"country\" + 0.006*\"debt\" + 0.006*\"high\" + 0.006*\"like\" + 0.006*\"service\""
+        ],
+        [
+            1,
+            "0.041*\"country\" + 0.028*\"debt\" + 0.017*\"service\" + 0.014*\"aid\" + 0.014*\"high\""
+        ],
+        [
+            2,
+            "0.006*\"country\" + 0.006*\"debt\" + 0.006*\"service\" + 0.006*\"payment\" + 0.006*\"like\""
+        ]
+    ],
+    "A_new_prescription_Kathy_Willis_on_how_nature_can_improve_your_health": [
+        [
+            0,
+            "0.005*\"thing\" + 0.005*\"really\" + 0.005*\"smell\" + 0.005*\"one\" + 0.005*\"nature\""
+        ],
+        [
+            1,
+            "0.005*\"thing\" + 0.005*\"smell\" + 0.005*\"one\" + 0.005*\"nature\" + 0.005*\"blood\""
+        ],
+        [
+            2,
+            "0.025*\"thing\" + 0.017*\"really\" + 0.017*\"smell\" + 0.014*\"nature\" + 0.014*\"one\""
+        ]
+    ],
+    "Ballot_box_bets_What_America's_election_means_for_investors": [
+        [
+            0,
+            "0.005*\"state\" + 0.005*\"win\" + 0.005*\"senate\" + 0.005*\"market\" + 0.005*\"stock\""
+        ],
+        [
+            1,
+            "0.005*\"state\" + 0.005*\"market\" + 0.005*\"senate\" + 0.005*\"chance\" + 0.005*\"win\""
+        ],
+        [
+            2,
+            "0.023*\"state\" + 0.018*\"win\" + 0.016*\"market\" + 0.013*\"trump\" + 0.013*\"chance\""
+        ]
+    ],
+    "Black_boxes_(part_one)_Michael_Kovrig_on_how_he_became_a_political_hostage_in_China": [
+        [
+            0,
+            "0.006*\"china\" + 0.006*\"korea\" + 0.006*\"north\" + 0.006*\"testing\" + 0.006*\"thing\""
+        ],
+        [
+            1,
+            "0.006*\"china\" + 0.006*\"korea\" + 0.006*\"north\" + 0.006*\"issue\" + 0.006*\"thing\""
+        ],
+        [
+            2,
+            "0.039*\"china\" + 0.027*\"north\" + 0.027*\"korea\" + 0.013*\"day\" + 0.013*\"get\""
+        ]
+    ],
+    "Bulls’_AI_funding_artificial_intelligence": [
+        [
+            0,
+            "0.007*\"model\" + 0.007*\"ai\" + 0.007*\"million\" + 0.007*\"cost\" + 0.007*\"billion\""
+        ],
+        [
+            1,
+            "0.020*\"model\" + 0.017*\"billion\" + 0.017*\"cost\" + 0.017*\"million\" + 0.017*\"ai\""
+        ],
+        [
+            2,
+            "0.007*\"model\" + 0.006*\"ai\" + 0.006*\"million\" + 0.006*\"reach\" + 0.006*\"soon\""
+        ]
+    ],
+    "Chip_wreck_Intel_is_on_the_rocks": [
+        [
+            0,
+            "0.005*\"first\" + 0.005*\"people\" + 0.005*\"innovation\" + 0.005*\"drone\" + 0.005*\"back\""
+        ],
+        [
+            1,
+            "0.005*\"first\" + 0.005*\"people\" + 0.005*\"drone\" + 0.005*\"back\" + 0.005*\"innovation\""
+        ],
+        [
+            2,
+            "0.014*\"people\" + 0.014*\"first\" + 0.011*\"back\" + 0.011*\"innovation\" + 0.011*\"drone\""
+        ]
+    ],
+    "Come_on_out,_the_vacuum’s_fine_SpaceX": [
+        [
+            0,
+            "0.006*\"one\" + 0.006*\"close\" + 0.006*\"people\" + 0.006*\"really\" + 0.006*\"therapy\""
+        ],
+        [
+            1,
+            "0.006*\"one\" + 0.006*\"close\" + 0.006*\"therapy\" + 0.006*\"first\" + 0.005*\"think\""
+        ],
+        [
+            2,
+            "0.028*\"close\" + 0.025*\"one\" + 0.016*\"therapy\" + 0.013*\"think\" + 0.013*\"people\""
+        ]
+    ],
+    "Election_rejection_fears_of_a_contested_result": [
+        [
+            0,
+            "0.005*\"donald\" + 0.005*\"trump\" + 0.005*\"election\" + 0.005*\"change\" + 0.005*\"rule\""
+        ],
+        [
+            1,
+            "0.005*\"donald\" + 0.005*\"election\" + 0.005*\"lawsuit\" + 0.005*\"change\" + 0.005*\"trump\""
+        ],
+        [
+            2,
+            "0.018*\"election\" + 0.018*\"trump\" + 0.018*\"donald\" + 0.016*\"one\" + 0.016*\"lawsuit\""
+        ]
+    ],
+    "Fed-letter_day_at_last,_a_rate_cut": [
+        [
+            0,
+            "0.005*\"russia\" + 0.005*\"would\" + 0.005*\"fed\" + 0.005*\"think\" + 0.005*\"american\""
+        ],
+        [
+            1,
+            "0.005*\"russia\" + 0.005*\"would\" + 0.005*\"ukraine\" + 0.005*\"escalation\" + 0.005*\"fed\""
+        ],
+        [
+            2,
+            "0.023*\"russia\" + 0.019*\"would\" + 0.016*\"fed\" + 0.013*\"american\" + 0.013*\"think\""
+        ]
+    ],
+    "Foiled_again_a_second_attempt_on_Trump": [
+        [
+            0,
+            "0.006*\"attempt\" + 0.006*\"music\" + 0.006*\"clear\" + 0.006*\"always\" + 0.006*\"medium\""
+        ],
+        [
+            1,
+            "0.006*\"attempt\" + 0.006*\"music\" + 0.006*\"clear\" + 0.006*\"always\" + 0.006*\"one\""
+        ],
+        [
+            2,
+            "0.019*\"attempt\" + 0.015*\"music\" + 0.012*\"assassination\" + 0.012*\"called\" + 0.012*\"brazil\""
+        ]
+    ],
+    "From_exile_to_high_office_one_ambassador's_fifty_years_in_China": [
+        [
+            0,
+            "0.006*\"china\" + 0.006*\"year\" + 0.006*\"back\" + 0.006*\"coming\" + 0.006*\"philippine\""
+        ],
+        [
+            1,
+            "0.007*\"china\" + 0.006*\"philippine\" + 0.006*\"back\" + 0.006*\"year\" + 0.006*\"coming\""
+        ],
+        [
+            2,
+            "0.054*\"china\" + 0.022*\"back\" + 0.019*\"year\" + 0.019*\"philippine\" + 0.015*\"coming\""
+        ]
+    ],
+    "Missile-stop_tour_Zelensky_in_America": [
+        [
+            0,
+            "0.019*\"ukraine\" + 0.016*\"zelensky\" + 0.013*\"well\" + 0.013*\"america\" + 0.013*\"week\""
+        ],
+        [
+            1,
+            "0.005*\"zelensky\" + 0.005*\"ukraine\" + 0.005*\"producer\" + 0.005*\"america\" + 0.005*\"well\""
+        ],
+        [
+            2,
+            "0.005*\"ukraine\" + 0.005*\"time\" + 0.005*\"week\" + 0.005*\"producer\" + 0.005*\"zelensky\""
+        ]
+    ],
+    "No_right_left_Afghanistan’s_oppressed_women": [
+        [
+            0,
+            "0.029*\"paris\" + 0.026*\"emily\" + 0.023*\"french\" + 0.015*\"city\" + 0.015*\"lot\""
+        ],
+        [
+            1,
+            "0.006*\"paris\" + 0.006*\"emily\" + 0.005*\"french\" + 0.005*\"see\" + 0.005*\"series\""
+        ],
+        [
+            2,
+            "0.006*\"paris\" + 0.006*\"emily\" + 0.006*\"french\" + 0.006*\"know\" + 0.006*\"see\""
+        ]
+    ],
+    "Open_to_debate_Harris_and_Trump_clash": [
+        [
+            0,
+            "0.005*\"model\" + 0.005*\"really\" + 0.005*\"harris\" + 0.005*\"trump\" + 0.005*\"debate\""
+        ],
+        [
+            1,
+            "0.005*\"harris\" + 0.005*\"model\" + 0.005*\"really\" + 0.005*\"trump\" + 0.005*\"debate\""
+        ],
+        [
+            2,
+            "0.019*\"harris\" + 0.019*\"model\" + 0.016*\"trump\" + 0.016*\"really\" + 0.013*\"kind\""
+        ]
+    ],
+    "Pager_turn_the_Israel-Hizbullah_conflict_escalates": [
+        [
+            0,
+            "0.022*\"big\" + 0.019*\"think\" + 0.011*\"also\" + 0.011*\"car\" + 0.011*\"fossil\""
+        ],
+        [
+            1,
+            "0.004*\"think\" + 0.004*\"big\" + 0.004*\"lot\" + 0.004*\"back\" + 0.004*\"truck\""
+        ],
+        [
+            2,
+            "0.006*\"big\" + 0.006*\"think\" + 0.005*\"truck\" + 0.005*\"american\" + 0.005*\"tax\""
+        ]
+    ],
+    "Playing_the_fuel_reforming_Nigeria’s_subsidies": [
+        [
+            0,
+            "0.005*\"country\" + 0.005*\"film\" + 0.005*\"bitcoin\" + 0.005*\"horror\" + 0.005*\"texas\""
+        ],
+        [
+            1,
+            "0.005*\"bitcoin\" + 0.005*\"country\" + 0.005*\"indonesia\" + 0.005*\"horror\" + 0.005*\"grid\""
+        ],
+        [
+            2,
+            "0.019*\"country\" + 0.016*\"film\" + 0.016*\"bitcoin\" + 0.013*\"grid\" + 0.013*\"indonesia\""
+        ]
+    ],
+    "Rocketing_Israel_escalates_Lebanon_conflict": [
+        [
+            0,
+            "0.008*\"alzheimer\" + 0.007*\"region\" + 0.007*\"could\" + 0.007*\"disease\" + 0.007*\"people\""
+        ],
+        [
+            1,
+            "0.008*\"alzheimer\" + 0.007*\"found\" + 0.007*\"people\" + 0.007*\"brain\" + 0.007*\"mutation\""
+        ],
+        [
+            2,
+            "0.029*\"alzheimer\" + 0.015*\"mutation\" + 0.015*\"could\" + 0.015*\"brain\" + 0.015*\"family\""
+        ]
+    ],
+    "Screen_time_why_the_world_can’t_get_enough_of_YouTube": [
+        [
+            0,
+            "0.006*\"really\" + 0.006*\"like\" + 0.005*\"people\" + 0.005*\"kind\" + 0.005*\"youtube\""
+        ],
+        [
+            1,
+            "0.006*\"really\" + 0.006*\"like\" + 0.006*\"dating\" + 0.006*\"youtube\" + 0.006*\"people\""
+        ],
+        [
+            2,
+            "0.023*\"really\" + 0.020*\"like\" + 0.018*\"people\" + 0.018*\"youtube\" + 0.015*\"kind\""
+        ]
+    ],
+    "Shun_while_it_lasted_never-Trumpers’_fading_sway": [
+        [
+            0,
+            "0.006*\"pet\" + 0.006*\"actually\" + 0.006*\"people\" + 0.006*\"really\" + 0.006*\"going\""
+        ],
+        [
+            1,
+            "0.007*\"pet\" + 0.006*\"actually\" + 0.006*\"like\" + 0.006*\"people\" + 0.006*\"got\""
+        ],
+        [
+            2,
+            "0.046*\"pet\" + 0.020*\"people\" + 0.020*\"actually\" + 0.018*\"going\" + 0.018*\"really\""
+        ]
+    ],
+    "Silicon_returns_to_Silicon_Valley_chipmaking_enters_a_new_golden_age": [
+        [
+            0,
+            "0.005*\"model\" + 0.005*\"actually\" + 0.005*\"chip\" + 0.005*\"well\" + 0.005*\"quite\""
+        ],
+        [
+            1,
+            "0.005*\"model\" + 0.005*\"actually\" + 0.005*\"chip\" + 0.005*\"quite\" + 0.005*\"well\""
+        ],
+        [
+            2,
+            "0.027*\"actually\" + 0.027*\"model\" + 0.022*\"chip\" + 0.012*\"quite\" + 0.012*\"well\""
+        ]
+    ],
+    "The_Weekend_Intelligence_Detoxified": [
+        [
+            0,
+            "0.006*\"work\" + 0.006*\"history\" + 0.006*\"really\" + 0.006*\"allowed\" + 0.006*\"site\""
+        ],
+        [
+            1,
+            "0.006*\"history\" + 0.006*\"work\" + 0.006*\"site\" + 0.006*\"allowed\" + 0.006*\"really\""
+        ],
+        [
+            2,
+            "0.025*\"history\" + 0.021*\"work\" + 0.018*\"really\" + 0.015*\"new\" + 0.015*\"site\""
+        ]
+    ],
+    "The_Weekend_Intelligence_Madridland": [
+        [
+            0,
+            "0.006*\"place\" + 0.006*\"city\" + 0.005*\"pandemic\" + 0.005*\"madrid\" + 0.005*\"year\""
+        ],
+        [
+            1,
+            "0.005*\"city\" + 0.005*\"place\" + 0.005*\"madrid\" + 0.005*\"year\" + 0.005*\"plaza\""
+        ],
+        [
+            2,
+            "0.027*\"place\" + 0.024*\"city\" + 0.014*\"madrid\" + 0.011*\"year\" + 0.011*\"pandemic\""
+        ]
+    ],
+    "War_or_less_Lebanon_on_the_brink": [
+        [
+            0,
+            "0.006*\"state\" + 0.006*\"think\" + 0.006*\"woo\" + 0.005*\"week\" + 0.005*\"north\""
+        ],
+        [
+            1,
+            "0.006*\"state\" + 0.005*\"week\" + 0.005*\"think\" + 0.005*\"governor\" + 0.005*\"woo\""
+        ],
+        [
+            2,
+            "0.032*\"state\" + 0.018*\"woo\" + 0.018*\"week\" + 0.018*\"think\" + 0.012*\"race\""
+        ]
+    ]
+}
