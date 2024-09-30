@@ -1,3 +1,11 @@
 # .gitignore file
 .env
 episodes/
+
+# Ignore virtual environments
+.venv/
+
+# Ignore model files and other large files
+bertopic_model
+*.dll
+*.lib
