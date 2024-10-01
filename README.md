@@ -17,3 +17,4 @@ To do:
 1. Switch from CPU to CUDA device to improve processing. Current stuck with CPU.
 2. Once switched to CUDA, transcribe entire episodes. ATM `generate-taxonomies.py` only transcribes and diarizes x3 random 60sec samples of each episode, for the first 20 episodes in the feed. This is to reduce processing time while we are stuck using CPU processing.
 3. Switch from LDA topic processing to something better (BERTopic? Tried with this but got poor results).
+4. Create more speaker samples. Currently I have to create these manually, by snipping a segment of a speaker and saving that mp3 to .assets/samples. So far we have ~20 speaker samples. Can these be created more efficiently?
