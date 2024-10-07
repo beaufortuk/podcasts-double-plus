@@ -1,4 +1,18 @@
 {
+    "AGI,_part_two_how_to_make_artificial_intelligence_more_like_the_human_kind": [
+        [
+            0,
+            "0.033*\"able\" + 0.021*\"anything\" + 0.021*\"would\" + 0.021*\"ai\" + 0.016*\"want\""
+        ],
+        [
+            1,
+            "0.006*\"able\" + 0.006*\"anything\" + 0.006*\"would\" + 0.006*\"ai\" + 0.006*\"human\""
+        ],
+        [
+            2,
+            "0.006*\"able\" + 0.006*\"ai\" + 0.006*\"would\" + 0.006*\"anything\" + 0.006*\"thing\""
+        ]
+    ],
     "Arrested_development_why_the_world’s_poorest_are_being_left_behind": [
         [
             0,
