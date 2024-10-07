@@ -5,6 +5,9 @@ episodes/
 # Ignore virtual environments
 .venv/
 
+# Ignore cache
+__pycache__/
+
 # Ignore model files and other large files
 bertopic_model
 *.dll
