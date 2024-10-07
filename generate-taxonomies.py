@@ -85,23 +85,34 @@ def main():
                 if speaker_name not in episode_speakers:
                     episode_speakers[speaker_name] = {
                         'total_speaking_time': 0.0,
-                        'text_corpus': ''
+                        'text_corpus': '',
+                        'episodes': []
                     }
 
                 episode_speakers[speaker_name]['total_speaking_time'] += duration
                 episode_speakers[speaker_name]['text_corpus'] += ' ' + text
 
+        # After processing all segments, filter speakers based on speaking time
+        for speaker_name, data in episode_speakers.items():
+            if data['total_speaking_time'] >= 180:  # 3 minutes = 180 seconds
+                # Prepare episode-specific data for the speaker
+                episode_data = {
+                    'episode_name': episode_name,
+                    'text': data['text_corpus'],
+                    'duration_spoken': data['total_speaking_time']
+                }
+
                 # Update global speakers dictionary
                 if speaker_name not in speakers:
                     speakers[speaker_name] = {
-                        'episodes': set(),
+                        'episodes': [],
                         'total_speaking_time': 0.0,
                         'text_corpus': ''
                     }
 
-                speakers[speaker_name]['episodes'].add(episode_name)
-                speakers[speaker_name]['total_speaking_time'] += duration
-                speakers[speaker_name]['text_corpus'] += ' ' + text
+                speakers[speaker_name]['episodes'].append(episode_data)
+                speakers[speaker_name]['total_speaking_time'] += data['total_speaking_time']
+                speakers[speaker_name]['text_corpus'] += ' ' + data['text_corpus']
 
         # Topic Module
         tokens = preprocess_text(all_text)
@@ -144,10 +155,7 @@ def main():
     # Integration and Saving Results
 
     # Process and save speaker profiles
-    # Convert episode sets to lists for JSON serialization
-    for speaker in speakers.values():
-        speaker['episodes'] = list(speaker['episodes'])
-
+    # No need to convert episodes to lists since they are already lists
     # Save speaker profiles
     speakers_output_path = os.path.join(config.BASE_DIR, 'speakers.json')
     with open(speakers_output_path, 'w', encoding='utf-8') as f:
