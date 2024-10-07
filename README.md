@@ -22,4 +22,5 @@ To do:
 * Provide some example recommendations, dynamically (e.g. "John Prideaux")
 * Add to config: no. of eps to download, entire eps or just x samples
 * Move generated json files to a folder, instead of root
-* Show error if RSS feed isn't as expected (e.g. not authorised)
+* Direct recommendations to an economist.com episode page, instead of an acast playback page.
+* Upgrade Whisper model from "tiny" to one that's more accurate (using tiny right now for speed during development)
