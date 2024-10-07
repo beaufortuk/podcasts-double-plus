@@ -9,6 +9,9 @@ episodes/
 __pycache__/
 
 # Ignore model files and other large files
-bertopic_model
 *.dll
 *.lib
+
+# Ignore sensitive analysis output
+episode_metadata.json
+

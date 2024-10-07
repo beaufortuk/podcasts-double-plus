@@ -10,7 +10,7 @@ Instructions:
 3. Install Microsoft Visual C++ 14.0 or greater. Get it with "Microsoft C++ Build Tools": https://visualstudio.microsoft.com/visual-cpp-build-tools/
 4. Add your Hugging Face API key to your OS env variables (`HUGGING_FACE_TOKEN`).
 5. Add your RSS feed of podcast episodes to your OS env variables (`PODCAST_RSS_FEED`).
-6. Run `generate-transcripts-speakers.py` to create transcriptions and speaker diarizations of episodes.
+6. To create transcriptions and speaker diarizations of episodes, run `generate-transcripts-speakers-gpu.py` for CUDA-equipped machines or `generate-transcripts-speakers-cpu.py` for CPU-equipped only.
 7. Run `generate-taxonomies.py` to generate metadata and taxonomies based on the transcriptions.
 8. Run `recommendations.py` to find more episodes based on speaker, taxonomy, or Surprise Me with something new.
 
