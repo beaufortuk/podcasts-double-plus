@@ -131,7 +131,7 @@ def main():
         choice = input("Enter your choice (1-6): ").strip()
 
         if choice == '1':
-            speaker_name = input("Enter the speaker's name: ").strip()
+            speaker_name = input("Enter the speaker's name (try John Prideaux): ").strip()
             recommended_episodes = recommend_by_speaker(episodes, speaker_name)
             if recommended_episodes:
                 print(f"\nEpisodes featuring {speaker_name}:")
@@ -140,7 +140,7 @@ def main():
             else:
                 print(f"\nNo episodes found featuring '{speaker_name}'.")
         elif choice == '2':
-            topic_keyword = input("Enter a topic keyword: ").strip()
+            topic_keyword = input("Enter a topic keyword (try AI): ").strip()
             recommended_episodes = recommend_by_topic(episodes, topic_keyword)
             if recommended_episodes:
                 print(f"\nEpisodes discussing '{topic_keyword}':")
