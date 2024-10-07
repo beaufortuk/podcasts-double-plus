@@ -65,45 +65,43 @@ def main():
         all_text = ''
         episode_speakers = {}
 
-        # Iterate over samples
-        for sample_idx in range(1, 5):  # Assuming 4 samples per episode
-            merged_transcript_path = os.path.join(
-                episode_dir, f'merged_speaker_transcript_{sample_idx}.json'
-            )
-            if os.path.exists(merged_transcript_path):
-                with open(merged_transcript_path, 'r', encoding='utf-8') as f:
-                    merged_transcript = json.load(f)
+        merged_transcript_path = os.path.join(
+            episode_dir, f'merged_speaker_transcript.json'
+        )
+        if os.path.exists(merged_transcript_path):
+            with open(merged_transcript_path, 'r', encoding='utf-8') as f:
+                merged_transcript = json.load(f)
 
-                # Process each segment in the merged transcript
-                for segment in merged_transcript:
-                    speaker_name = segment['speaker']
-                    text = segment['text']
-                    duration = segment['end'] - segment['start']
+            # Process each segment in the merged transcript
+            for segment in merged_transcript:
+                speaker_name = segment['speaker']
+                text = segment['text']
+                duration = segment['end'] - segment['start']
 
-                    # Update overall text for the episode
-                    all_text += ' ' + text
+                # Update overall text for the episode
+                all_text += ' ' + text
 
-                    # Update episode speakers
-                    if speaker_name not in episode_speakers:
-                        episode_speakers[speaker_name] = {
-                            'total_speaking_time': 0.0,
-                            'text_corpus': ''
-                        }
+                # Update episode speakers
+                if speaker_name not in episode_speakers:
+                    episode_speakers[speaker_name] = {
+                        'total_speaking_time': 0.0,
+                        'text_corpus': ''
+                    }
 
-                    episode_speakers[speaker_name]['total_speaking_time'] += duration
-                    episode_speakers[speaker_name]['text_corpus'] += ' ' + text
+                episode_speakers[speaker_name]['total_speaking_time'] += duration
+                episode_speakers[speaker_name]['text_corpus'] += ' ' + text
 
-                    # Update global speakers dictionary
-                    if speaker_name not in speakers:
-                        speakers[speaker_name] = {
-                            'episodes': set(),
-                            'total_speaking_time': 0.0,
-                            'text_corpus': ''
-                        }
+                # Update global speakers dictionary
+                if speaker_name not in speakers:
+                    speakers[speaker_name] = {
+                        'episodes': set(),
+                        'total_speaking_time': 0.0,
+                        'text_corpus': ''
+                    }
 
-                    speakers[speaker_name]['episodes'].add(episode_name)
-                    speakers[speaker_name]['total_speaking_time'] += duration
-                    speakers[speaker_name]['text_corpus'] += ' ' + text
+                speakers[speaker_name]['episodes'].add(episode_name)
+                speakers[speaker_name]['total_speaking_time'] += duration
+                speakers[speaker_name]['text_corpus'] += ' ' + text
 
         # Topic Module
         tokens = preprocess_text(all_text)
