@@ -24,6 +24,8 @@ from pydub import AudioSegment
 from pyannote.core import Annotation, Segment
 from pyannote.database.util import load_rttm
 from sklearn.metrics.pairwise import cosine_similarity
+import requests
+from requests.exceptions import HTTPError, RequestException
 
 # Import configurations
 import config
@@ -411,11 +413,39 @@ def identify_speakers(audio_file, output_dir, sample_idx=None):
 # Main execution
 if __name__ == "__main__":
     # Parse the RSS feed
+    print(f"\nParsing the RSS feed")
     rss_feed_url = config.PODCAST_RSS_FEED
-    feed = feedparser.parse(rss_feed_url)
-    episodes = feed.entries[:24]
+    try:
+        # Attempt to fetch the RSS feed using requests
+        response = requests.get(rss_feed_url, timeout=10)  # Added timeout for better control
+        response.raise_for_status()  # Raises HTTPError for bad HTTP status codes (4xx, 5xx)
+        
+        # Parse the RSS feed content
+        feed = feedparser.parse(response.content)
+        
+        # Check if feedparser encountered any parsing issues
+        if feed.bozo:
+            raise ValueError(f"Malformed feed: {feed.bozo_exception}")
+        
+        # Validate that the feed contains entries
+        if not hasattr(feed, 'entries') or not feed.entries:
+            raise ValueError("Feed does not contain any entries")
+        
+        # Extract the first two episodes
+        episodes = feed.entries[:config.NUMBER_OF_EPS_TO_ANALYSE]
+        print("\nFinished parsing the RSS feed successfully.")
+        
+    except HTTPError as http_err:
+        print(f"HTTP error occurred while fetching the RSS feed: {http_err}")
+    except RequestException as req_err:
+        print(f"Network-related error occurred while fetching the RSS feed: {req_err}")
+    except ValueError as val_err:
+        print(f"Data parsing error: {val_err}")
+    except Exception as e:
+        print(f"An unexpected error occurred: {e}")
     
     # Record episode metadata
+    print(f"\nRecording episode metadata")
     episode_metadata = []
     for entry in episodes:
         title = entry.title
@@ -426,6 +456,7 @@ if __name__ == "__main__":
             'link': link,
             'enclosure_url': enclosure_url
         })
+    print(f"\nFinished recording episode metadata")
     
     # Process each episode
     for episode in episode_metadata:
