@@ -25,4 +25,4 @@ EMBEDDINGS_DIR = os.path.join(BASE_DIR, 'embeddings')
 ASSETS_DIR = os.path.join(BASE_DIR, 'assets')
 
 # How many eps will be analysed. 
-NUMBER_OF_EPS_TO_ANALYSE = 30
+NUMBER_OF_EPS_TO_ANALYSE = 1000

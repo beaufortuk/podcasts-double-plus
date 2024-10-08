@@ -119,7 +119,7 @@ def main():
         if tokens:
             dictionary = corpora.Dictionary([tokens])
             corpus = [dictionary.doc2bow(tokens)]
-            num_topics = 3  # Adjust as needed
+            num_topics = 6  # Adjust as needed
 
             # Build LDA model
             lda_model = LdaModel(corpus=corpus, id2word=dictionary, num_topics=num_topics,
