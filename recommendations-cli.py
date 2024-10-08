@@ -247,3 +247,74 @@ def recommend_understand_more(episodes):
     )
     top_episodes = [ep[0] for ep in sorted_episodes[:5]]  # Top 5 episodes
     return top_episodes
+
+def main():
+    episodes, speakers = integrate_metadata()
+
+    # Simple command-line interface
+    while True:
+        print("\nWelcome to The Economist Podcast Recommendation System!")
+        print("Please select an option:")
+        print("1. Search for Episodes")
+        print("2. Recommend by Speaker")
+        print("3. Surprise Me")
+        print("4. Explore More")
+        print("5. Understand More")
+        print("6. Exit")
+        choice = input("Enter your choice (1-6): ").strip()
+
+        if choice == '1':
+            keyword = input("Enter a keyword (e.g., AI, Elon Musk, Climate Change): ").strip()
+            recommended_episodes = recommend_by_keyword(episodes, keyword)
+            if recommended_episodes:
+                print(f"\nEpisodes related to '{keyword}' (sorted by relevance):")
+                for ep in recommended_episodes:
+                    print(f"- {ep}")
+            else:
+                print(f"\nNo episodes found related to '{keyword}'.")
+        elif choice == '2':
+            speaker_name = input("Enter the speaker's name (e.g., Zanny): ").strip()
+            recommended_episodes = recommend_by_speaker(episodes, speakers, speaker_name)
+            if recommended_episodes:
+                print(f"\nEpisodes featuring '{speaker_name}' (sorted by airtime):")
+                for ep in recommended_episodes:
+                    print(f"- {ep}")
+            else:
+                print(f"\nNo episodes found featuring '{speaker_name}'.")
+        elif choice == '3':
+            recommended_episodes = recommend_surprise_me(episodes)
+            if recommended_episodes:
+                print("\nSurprise! Here's an episode you might enjoy:")
+                for ep in recommended_episodes:
+                    print(f"- {ep}")
+            else:
+                print("\nNo episodes available to recommend.")
+        elif choice == '4':
+            user_keywords = input("Enter keywords you're interested in (comma-separated): ").split(',')
+            user_keywords = [t.strip() for t in user_keywords if t.strip()]
+            if user_keywords:
+                recommended_episodes = recommend_explore_more(episodes, user_keywords)
+                if recommended_episodes:
+                    print("\nExplore more with these episodes (sorted by relevance):")
+                    for ep in recommended_episodes:
+                        print(f"- {ep}")
+                else:
+                    print("\nNo episodes found to explore more.")
+            else:
+                print("\nNo keywords entered.")
+        elif choice == '5':
+            recommended_episodes = recommend_understand_more(episodes)
+            if recommended_episodes:
+                print("\nDeepen your understanding with these episodes:")
+                for ep in recommended_episodes:
+                    print(f"- {ep}")
+            else:
+                print("\nNo episodes available for deeper understanding.")
+        elif choice == '6':
+            print("Thank you for using The Economist Podcast Recommendation System. Goodbye!")
+            break
+        else:
+            print("\nInvalid choice. Please select a valid option.")
+
+if __name__ == '__main__':
+    main()
