@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>{{ type }}</h2>
+{% if query %}
+    <p>Results for: <strong>{{ query }}</strong></p>
+{% endif %}
+{% if episodes %}
+    <ul>
+    {% for episode in episodes %}
+        <li>{{ episode }}</li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No episodes found.</p>
+{% endif %}
+<a href="{{ url_for('home') }}">Back to Home</a>
+{% endblock %}
