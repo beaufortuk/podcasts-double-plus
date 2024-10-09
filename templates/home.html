@@ -20,24 +20,10 @@
     </form>
 </section>
 
-<!-- Explore More -->
-<section>
-    <h3>Explore More</h3>
-    <form action="{{ url_for('explore') }}" method="post">
-        <input type="text" name="keywords" placeholder="Enter keywords (comma-separated)" required>
-        <button type="submit">Explore</button>
-    </form>
-</section>
-
 <!-- Surprise Me -->
 <section>
     <h3>Surprise Me</h3>
     <a href="{{ url_for('surprise') }}"><button>Surprise Me</button></a>
 </section>
 
-<!-- Understand More -->
-<section>
-    <h3>Understand More</h3>
-    <a href="{{ url_for('understand_more') }}"><button>Show Episodes</button></a>
-</section>
 {% endblock %}
