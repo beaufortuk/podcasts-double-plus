@@ -552,12 +552,18 @@ if __name__ == "__main__":
         title = entry.title
         link = entry.link
         enclosure_url = entry.enclosures[0].href if entry.enclosures else None
+
+        # Extract acast:episodeId
+        episode_id = entry.get('acast_episodeid')  # feedparser converts <acast:episodeId> to 'acast_episodeid'
+
         if enclosure_url:
-            episode_metadata.append({
+            episode_data = {
                 'title': title,
                 'link': link,
-                'enclosure_url': enclosure_url
-            })
+                'enclosure_url': enclosure_url,
+                'episode_id': episode_id  # Add the episode_id here
+            }
+            episode_metadata.append(episode_data)
         else:
             print(f"No enclosure found for episode '{title}'. Skipping.")
     print(f"\nFinished recording episode metadata")
