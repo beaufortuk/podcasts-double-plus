@@ -6,8 +6,10 @@
 {% endif %}
 {% if episodes %}
     <ul>
-    {% for episode in episodes %}
-        <li>{{ episode }}</li>
+        {% for episode in episodes %}
+        <li>
+            <a href="{{ episode.url }}" target="_blank">{{ episode.title }}</a>
+        </li>
     {% endfor %}
     </ul>
 {% else %}

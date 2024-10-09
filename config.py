@@ -21,6 +21,9 @@ EPISODES_DIR = os.path.join(BASE_DIR, 'episodes')
 # Directory for embeddings (e.g., speaker embeddings)
 EMBEDDINGS_DIR = os.path.join(BASE_DIR, 'embeddings')
 
+# Path to episode_metadata.json
+EPISODE_METADATA_PATH = os.path.join(BASE_DIR, 'episode_metadata.json')
+
 # Directory for assets (e.g., known speaker audio samples)
 ASSETS_DIR = os.path.join(BASE_DIR, 'assets')
 
