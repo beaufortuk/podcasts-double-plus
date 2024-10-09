@@ -25,6 +25,7 @@ def load_metadata():
     episode_entities_path = os.path.join(base_dir, 'episode_entities.json')
     episode_sentiments_path = os.path.join(base_dir, 'episode_sentiments.json')
     episode_humor_scores_path = os.path.join(base_dir, 'episode_humor_scores.json')
+    episode_metadata_path = os.path.join(base_dir, 'episode_metadata.json')  # Added
 
     # Load data
     with open(speakers_path, 'r', encoding='utf-8') as f:
@@ -42,13 +43,32 @@ def load_metadata():
     with open(episode_humor_scores_path, 'r', encoding='utf-8') as f:
         episode_humor_scores = json.load(f)
 
-    return speakers, episode_topics, episode_entities, episode_sentiments, episode_humor_scores
+    # Load episode metadata
+    with open(episode_metadata_path, 'r', encoding='utf-8') as f:
+        episode_metadata = json.load(f)
+
+    return speakers, episode_topics, episode_entities, episode_sentiments, episode_humor_scores, episode_metadata
 
 def integrate_metadata():
-    speakers, episode_topics, episode_entities, episode_sentiments, episode_humor_scores = load_metadata()
+    (
+        speakers,
+        episode_topics,
+        episode_entities,
+        episode_sentiments,
+        episode_humor_scores,
+        episode_metadata
+    ) = load_metadata()
 
     # Create a dictionary for episodes
     episodes = {}
+
+    # Create a mapping from episode title to enclosure_url
+    title_to_url = {}
+    for ep in episode_metadata:
+        title = ep.get('title')
+        url = ep.get('enclosure_url')
+        if title and url:
+            title_to_url[title] = url
 
     # Get a list of all episode names
     episode_names = set()
@@ -64,7 +84,8 @@ def integrate_metadata():
             'entities': episode_entities.get(episode_name, []),
             'sentiments': episode_sentiments.get(episode_name, {}),
             'humor_scores': episode_humor_scores.get(episode_name, {}),
-            'speakers': []
+            'speakers': [],
+            'enclosure_url': title_to_url.get(episode_name, '#')  # Added
         }
 
     # Add speakers to episodes
@@ -83,7 +104,8 @@ def integrate_metadata():
                     'entities': [],
                     'sentiments': {},
                     'humor_scores': {},
-                    'speakers': [speaker_name]
+                    'speakers': [speaker_name],
+                    'enclosure_url': title_to_url.get(ep_name, '#')  # Added
                 }
 
     return episodes, speakers
@@ -113,6 +135,7 @@ def recommend_by_keyword(episodes, keyword):
         topic_strings = [t[1] for t in data['topics']]  # Topic descriptions
         entities = [ent[0] for ent in data['entities']]  # Entity texts
         episode_title = episode_name
+        enclosure_url = data.get('enclosure_url', '#')  # Get URL
 
         # Search in episode title
         title_similarity = similarity(keyword_lower, episode_title.lower())
@@ -138,7 +161,12 @@ def recommend_by_keyword(episodes, keyword):
 
     # Sort episodes based on relevance score
     sorted_episodes = sorted(relevance_scores.items(), key=lambda x: x[1], reverse=True)
-    recommended_episodes = [ep[0] for ep in sorted_episodes]
+    
+    # Build list of recommended episodes with titles and URLs
+    for ep in sorted_episodes:
+        ep_title = ep[0]
+        ep_url = episodes[ep_title].get('enclosure_url', '#')
+        recommended_episodes.append({'title': ep_title, 'url': ep_url})
 
     return recommended_episodes
 
@@ -190,17 +218,20 @@ def recommend_by_speaker(episodes, speakers, input_speaker_name):
     # Sort the episodes by duration_spoken descending
     sorted_episodes = sorted(episode_durations, key=lambda x: x[1], reverse=True)
 
-    # Extract sorted episode names
-    recommended_episodes = [ep[0] for ep in sorted_episodes]
+    # Extract sorted episode names and URLs
+    for ep in sorted_episodes:
+        ep_name = ep[0]
+        ep_url = episodes.get(ep_name, {}).get('enclosure_url', '#')
+        recommended_episodes.append({'title': ep_name, 'url': ep_url})
 
     return recommended_episodes
-
 
 def recommend_surprise_me(episodes):
     if not episodes:
         return []
     episode_name = random.choice(list(episodes.keys()))
-    return [episode_name]
+    episode_url = episodes[episode_name].get('enclosure_url', '#')
+    return [{'title': episode_name, 'url': episode_url}]
 
 def recommend_explore_more(episodes, user_keywords):
     recommended_episodes = []
@@ -219,6 +250,7 @@ def recommend_explore_more(episodes, user_keywords):
         topic_strings = [t[1] for t in data['topics']]
         entities = [ent[0] for ent in data['entities']]
         episode_title = episode_name
+        enclosure_url = data.get('enclosure_url', '#')
 
         # Combine all text for matching
         combined_text = ' '.join(topic_strings + entities + [episode_title]).lower()
@@ -234,7 +266,11 @@ def recommend_explore_more(episodes, user_keywords):
 
     # Sort and return top 5 episodes
     sorted_episodes = sorted(relevance_scores.items(), key=lambda x: x[1], reverse=True)
-    recommended_episodes = [ep[0] for ep in sorted_episodes[:5]]
+    
+    for ep in sorted_episodes[:5]:
+        ep_title = ep[0]
+        ep_url = episodes[ep_title].get('enclosure_url', '#')
+        recommended_episodes.append({'title': ep_title, 'url': ep_url})
 
     return recommended_episodes
 
@@ -245,5 +281,10 @@ def recommend_understand_more(episodes):
         key=lambda x: x[1]['sentiments'].get('compound', 0),
         reverse=True
     )
-    top_episodes = [ep[0] for ep in sorted_episodes[:5]]  # Top 5 episodes
-    return top_episodes
+    top_episodes = sorted_episodes[:5]  # Top 5 episodes
+    recommended_episodes = []
+    for ep in top_episodes:
+        ep_title = ep[0]
+        ep_url = ep[1].get('enclosure_url', '#')
+        recommended_episodes.append({'title': ep_title, 'url': ep_url})
+    return recommended_episodes

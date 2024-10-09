@@ -35,6 +35,18 @@
         "pos": 0.122,
         "compound": 0.9988
     },
+    "6000_bombs_in_six_days_life_in_Gaza": {
+        "neg": 0.136,
+        "neu": 0.777,
+        "pos": 0.087,
+        "compound": -0.9998
+    },
+    "Abodes_well_The_housing_crash_that_wasn’t": {
+        "neg": 0.063,
+        "neu": 0.792,
+        "pos": 0.145,
+        "compound": 0.9999
+    },
     "Age-old_problem_America's_gerontocracy": {
         "neg": 0.056,
         "neu": 0.814,
@@ -52,6 +64,12 @@
         "neu": 0.82,
         "pos": 0.138,
         "compound": 1.0
+    },
+    "AI-pocalypse_predicting_the_threat_from_artificial_intelligence": {
+        "neg": 0.1,
+        "neu": 0.757,
+        "pos": 0.143,
+        "compound": 0.9995
     },
     "AIOU_what_if_the_AI_boom_busts": {
         "neg": 0.044,
@@ -95,6 +113,24 @@
         "pos": 0.106,
         "compound": 0.9793
     },
+    "Another_season_of_the_crown_the_coronation_of_Charles_III": {
+        "neg": 0.054,
+        "neu": 0.813,
+        "pos": 0.133,
+        "compound": 0.9999
+    },
+    "Another_think_coming_An_AI_pioneer_steps_down": {
+        "neg": 0.094,
+        "neu": 0.799,
+        "pos": 0.107,
+        "compound": 0.9967
+    },
+    "Antitrust,_the_process_America’s_competition_cops": {
+        "neg": 0.07,
+        "neu": 0.827,
+        "pos": 0.103,
+        "compound": 0.9993
+    },
     "An_assassination_attempt_what_next_for_America": {
         "neg": 0.14,
         "neu": 0.767,
@@ -107,17 +143,47 @@
         "pos": 0.139,
         "compound": 1.0
     },
+    "An_interview_with_a_Hamas_leader": {
+        "neg": 0.123,
+        "neu": 0.767,
+        "pos": 0.11,
+        "compound": -0.9983
+    },
     "An_officer_and_a_gen_AI_the_future_of_war": {
         "neg": 0.093,
         "neu": 0.793,
         "pos": 0.113,
         "compound": 0.9975
     },
+    "An_oily_sheen_Nicolás_Maduro_in_from_the_cold": {
+        "neg": 0.056,
+        "neu": 0.814,
+        "pos": 0.13,
+        "compound": 0.9999
+    },
+    "Are_the_allegations_tru_deau_Canada_and_India’s_diplomatic_row": {
+        "neg": 0.086,
+        "neu": 0.77,
+        "pos": 0.144,
+        "compound": 0.9995
+    },
     "Argentina_turning_Milei’s_surprising_political_success": {
         "neg": 0.096,
         "neu": 0.771,
         "pos": 0.133,
         "compound": 0.9995
+    },
+    "Argo_the_sequel_America_and_Iran’s_hostage_deal": {
+        "neg": 0.058,
+        "neu": 0.827,
+        "pos": 0.115,
+        "compound": 0.9997
+    },
+    "Arraigning_on_his_parade_the_charges_against_Donald_Trump": {
+        "neg": 0.095,
+        "neu": 0.789,
+        "pos": 0.116,
+        "compound": 0.9981
     },
     "Arrested_development_why_the_world’s_poorest_are_being_left_behind": {
         "neg": 0.081,
@@ -137,11 +203,53 @@
         "pos": 0.092,
         "compound": 0.9999
     },
+    "Autocrat_v_bureaucrat_Turkey’s_crucial_vote": {
+        "neg": 0.055,
+        "neu": 0.834,
+        "pos": 0.11,
+        "compound": 0.9998
+    },
+    "A_better_pill_to_swallow_the_bid_to_end_AIDS": {
+        "neg": 0.086,
+        "neu": 0.797,
+        "pos": 0.117,
+        "compound": 0.9992
+    },
+    "A_bit_Fed_up_central_banks’_dilemma": {
+        "neg": 0.112,
+        "neu": 0.791,
+        "pos": 0.098,
+        "compound": -0.996
+    },
+    "A_chance_at_renewal_Nigeria’s_coming_election": {
+        "neg": 0.078,
+        "neu": 0.781,
+        "pos": 0.141,
+        "compound": 0.9998
+    },
+    "A_cut_above_the_West_America’s_astounding_economy": {
+        "neg": 0.084,
+        "neu": 0.784,
+        "pos": 0.131,
+        "compound": 0.9996
+    },
+    "A_figure_of_speeches_Volodymyr_Zelensky_in_his_own_words": {
+        "neg": 0.093,
+        "neu": 0.784,
+        "pos": 0.123,
+        "compound": 0.9991
+    },
     "A_key_Keystone_the_race_for_Pennsylvania": {
         "neg": 0.046,
         "neu": 0.811,
         "pos": 0.143,
         "compound": 1.0
+    },
+    "A_messy_oil_change_Nigeria’s_fraught_reforms": {
+        "neg": 0.06,
+        "neu": 0.8,
+        "pos": 0.141,
+        "compound": 0.9999
     },
     "A_new_prescription_Kathy_Willis_on_how_nature_can_improve_your_health": {
         "neg": 0.039,
@@ -149,17 +257,83 @@
         "pos": 0.126,
         "compound": 1.0
     },
+    "A_rarefied_air_a_dispatch_from_Davos": {
+        "neg": 0.061,
+        "neu": 0.826,
+        "pos": 0.113,
+        "compound": 0.9997
+    },
     "A_real_work_of_peace_An_Israel-Hamas_deal": {
         "neg": 0.053,
         "neu": 0.82,
         "pos": 0.127,
         "compound": 0.9999
     },
+    "A_Ron_turn_DeSantis’s_disastrous_announcement": {
+        "neg": 0.075,
+        "neu": 0.81,
+        "pos": 0.115,
+        "compound": 0.9996
+    },
+    "A_scratch_in_the_Teflon_Trump’s_sexual-battery_loss": {
+        "neg": 0.097,
+        "neu": 0.784,
+        "pos": 0.119,
+        "compound": 0.9983
+    },
+    "A_tough_transition_unrest_in_Sudan": {
+        "neg": 0.094,
+        "neu": 0.768,
+        "pos": 0.138,
+        "compound": 0.9996
+    },
+    "A_vote_for_Ukraine_why_Estonia’s_election_matters": {
+        "neg": 0.091,
+        "neu": 0.785,
+        "pos": 0.124,
+        "compound": 0.9994
+    },
     "A_wholesale_success_Why_Americans_love_Costco": {
         "neg": 0.045,
         "neu": 0.793,
         "pos": 0.163,
         "compound": 1.0
+    },
+    "A_year_of_war_a_Ukraine_special": {
+        "neg": 0.121,
+        "neu": 0.76,
+        "pos": 0.119,
+        "compound": -0.9829
+    },
+    "Babbage_Advances_in_healthcare_technology": {
+        "neg": 0.034,
+        "neu": 0.829,
+        "pos": 0.136,
+        "compound": 1.0
+    },
+    "Babbage_Alternatives_to_alcohol": {
+        "neg": 0.061,
+        "neu": 0.795,
+        "pos": 0.144,
+        "compound": 1.0
+    },
+    "Babbage_An_interview_with_a_humanoid_robot": {
+        "neg": 0.066,
+        "neu": 0.787,
+        "pos": 0.146,
+        "compound": 1.0
+    },
+    "Babbage_Are_auctioned_dinosaur_fossils_lost_to_science": {
+        "neg": 0.051,
+        "neu": 0.837,
+        "pos": 0.112,
+        "compound": 0.9999
+    },
+    "Babbage_BioNTech's_founder_on_the_future_of_mRNA_technology": {
+        "neg": 0.087,
+        "neu": 0.799,
+        "pos": 0.114,
+        "compound": 0.9991
     },
     "Babbage_Can_India_become_a_scientific_superpower": {
         "neg": 0.039,
@@ -171,6 +345,12 @@
         "neg": 0.043,
         "neu": 0.825,
         "pos": 0.132,
+        "compound": 1.0
+    },
+    "Babbage_Change_clinical_trials_and_save_lives": {
+        "neg": 0.037,
+        "neu": 0.828,
+        "pos": 0.135,
         "compound": 1.0
     },
     "Babbage_Cheaper,_faster_drones_are_intensifying_warfare": {
@@ -197,6 +377,18 @@
         "pos": 0.14,
         "compound": 0.9998
     },
+    "Babbage_Deb_Chachra_on_the_value_of_great_infrastructure": {
+        "neg": 0.041,
+        "neu": 0.835,
+        "pos": 0.124,
+        "compound": 1.0
+    },
+    "Babbage_El_Niño_is_back,_and_he_looks_angry": {
+        "neg": 0.065,
+        "neu": 0.844,
+        "pos": 0.092,
+        "compound": 0.9995
+    },
     "Babbage_Fei-Fei_Li_on_how_to_really_think_about_the_future_of_AI": {
         "neg": 0.047,
         "neu": 0.827,
@@ -215,16 +407,64 @@
         "pos": 0.128,
         "compound": 1.0
     },
+    "Babbage_How_AI_promises_to_revolutionise_science": {
+        "neg": 0.034,
+        "neu": 0.84,
+        "pos": 0.125,
+        "compound": 1.0
+    },
+    "Babbage_How_drones_are_transforming_warfare_in_Ukraine": {
+        "neg": 0.081,
+        "neu": 0.827,
+        "pos": 0.092,
+        "compound": 0.9959
+    },
+    "Babbage_How_Elon_Musk’s_satellites_could_change_warfare_forever": {
+        "neg": 0.071,
+        "neu": 0.833,
+        "pos": 0.096,
+        "compound": 0.9993
+    },
+    "Babbage_How_good_can_weather_forecasting_get": {
+        "neg": 0.029,
+        "neu": 0.857,
+        "pos": 0.114,
+        "compound": 1.0
+    },
     "Babbage_How_to_avoid_a_battery_shortage": {
         "neg": 0.038,
         "neu": 0.855,
         "pos": 0.107,
         "compound": 1.0
     },
+    "Babbage_How_to_battle_superbugs_with_viruses": {
+        "neg": 0.064,
+        "neu": 0.826,
+        "pos": 0.11,
+        "compound": 0.9999
+    },
     "Babbage_How_to_be_a_better_communicator—an_interview_with_Charles_Duhigg": {
         "neg": 0.05,
         "neu": 0.783,
         "pos": 0.166,
+        "compound": 1.0
+    },
+    "Babbage_How_to_detect_a_deepfake": {
+        "neg": 0.064,
+        "neu": 0.826,
+        "pos": 0.109,
+        "compound": 0.9998
+    },
+    "Babbage_How_to_farm_fish_on_dry_land": {
+        "neg": 0.045,
+        "neu": 0.825,
+        "pos": 0.13,
+        "compound": 1.0
+    },
+    "Babbage_How_to_learn_to_love_maths,_with_Eugenia_Cheng": {
+        "neg": 0.054,
+        "neu": 0.796,
+        "pos": 0.15,
         "compound": 1.0
     },
     "Babbage_How_to_remove_carbon_from_the_atmosphere": {
@@ -233,10 +473,52 @@
         "pos": 0.108,
         "compound": 0.9999
     },
+    "Babbage_How_to_save_cities_from_sinking": {
+        "neg": 0.049,
+        "neu": 0.863,
+        "pos": 0.088,
+        "compound": 0.9997
+    },
     "Babbage_How_to_save_coral_reefs": {
         "neg": 0.051,
         "neu": 0.804,
         "pos": 0.145,
+        "compound": 1.0
+    },
+    "Babbage_How_to_tackle_the_obesity_epidemic": {
+        "neg": 0.071,
+        "neu": 0.831,
+        "pos": 0.098,
+        "compound": 0.9996
+    },
+    "Babbage_How_to_uncover_the_origin_of_the_coronavirus": {
+        "neg": 0.059,
+        "neu": 0.846,
+        "pos": 0.095,
+        "compound": 0.9998
+    },
+    "Babbage_How_worrying_is_generative_AI": {
+        "neg": 0.05,
+        "neu": 0.824,
+        "pos": 0.127,
+        "compound": 1.0
+    },
+    "Babbage_Hunting_for_life_elsewhere—part_one,_Didier_Queloz": {
+        "neg": 0.026,
+        "neu": 0.869,
+        "pos": 0.105,
+        "compound": 1.0
+    },
+    "Babbage_Hunting_for_life_elsewhere—part_two,_JUICE": {
+        "neg": 0.017,
+        "neu": 0.891,
+        "pos": 0.092,
+        "compound": 1.0
+    },
+    "Babbage_Is_GPT-4_the_dawn_of_true_artificial_intelligence": {
+        "neg": 0.055,
+        "neu": 0.814,
+        "pos": 0.131,
         "compound": 1.0
     },
     "Babbage_Make_space_for_Europe": {
@@ -250,6 +532,12 @@
         "neu": 0.841,
         "pos": 0.121,
         "compound": 0.9999
+    },
+    "Babbage_Mustafa_Suleyman_on_how_to_prepare_for_the_age_of_AI": {
+        "neg": 0.044,
+        "neu": 0.818,
+        "pos": 0.138,
+        "compound": 1.0
     },
     "Babbage_picks_AI_helps_the_Beatles_get_back": {
         "neg": 0.039,
@@ -329,17 +617,53 @@
         "pos": 0.175,
         "compound": 1.0
     },
+    "Babbage_Sex_differences_and_sport": {
+        "neg": 0.041,
+        "neu": 0.821,
+        "pos": 0.138,
+        "compound": 1.0
+    },
+    "Babbage_Summer_science_lessons": {
+        "neg": 0.025,
+        "neu": 0.852,
+        "pos": 0.123,
+        "compound": 1.0
+    },
     "Babbage_Teens_and_their_screens": {
         "neg": 0.089,
         "neu": 0.797,
         "pos": 0.115,
         "compound": 0.9997
     },
+    "Babbage_The_2023_Nobel_prizes_in_science": {
+        "neg": 0.029,
+        "neu": 0.837,
+        "pos": 0.133,
+        "compound": 1.0
+    },
     "Babbage_The_challenge_of_tunnel_warfare": {
         "neg": 0.098,
         "neu": 0.803,
         "pos": 0.099,
         "compound": -0.9686
+    },
+    "Babbage_The_debate_over_deep-sea_mining": {
+        "neg": 0.055,
+        "neu": 0.859,
+        "pos": 0.085,
+        "compound": 0.9996
+    },
+    "Babbage_The_fight_to_link_contact_sports_to_long-term_brain_injuries": {
+        "neg": 0.088,
+        "neu": 0.812,
+        "pos": 0.101,
+        "compound": 0.9979
+    },
+    "Babbage_The_hopes_and_fears_of_human_genome_editing": {
+        "neg": 0.047,
+        "neu": 0.832,
+        "pos": 0.121,
+        "compound": 1.0
     },
     "Babbage_The_hunt_for_dark_matter": {
         "neg": 0.022,
@@ -360,10 +684,16 @@
         "compound": 1.0
     },
     "Babbage_The_mystery_of_chronic_pain": {
-        "neg": 0.0,
-        "neu": 0.0,
-        "pos": 0.0,
-        "compound": 0.0
+        "neg": 0.08,
+        "neu": 0.757,
+        "pos": 0.162,
+        "compound": 1.0
+    },
+    "Babbage_The_private_Moon_race": {
+        "neg": 0.022,
+        "neu": 0.873,
+        "pos": 0.105,
+        "compound": 1.0
     },
     "Babbage_The_promise_(and_problems)_of_embryo_models": {
         "neg": 0.041,
@@ -376,6 +706,24 @@
         "neu": 0.837,
         "pos": 0.139,
         "compound": 1.0
+    },
+    "Babbage_The_race_for_nuclear_fusion_goes_private": {
+        "neg": 0.03,
+        "neu": 0.858,
+        "pos": 0.112,
+        "compound": 1.0
+    },
+    "Babbage_The_race_to_the_Moon’s_South_Pole": {
+        "neg": 0.037,
+        "neu": 0.86,
+        "pos": 0.104,
+        "compound": 0.9999
+    },
+    "Babbage_The_scandal_of_scientific_fraud": {
+        "neg": 0.11,
+        "neu": 0.795,
+        "pos": 0.095,
+        "compound": -0.9994
     },
     "Babbage_The_science_that_built_the_AI_revolution—part_four": {
         "neg": 0.018,
@@ -401,11 +749,71 @@
         "pos": 0.09,
         "compound": 0.9999
     },
+    "Babbage_The_scientific_quest_to_conquer_ageing": {
+        "neg": 0.051,
+        "neu": 0.834,
+        "pos": 0.115,
+        "compound": 0.9999
+    },
+    "Babbage_The_surprising_ineffectiveness_of_Russia’s_cyber-war": {
+        "neg": 0.139,
+        "neu": 0.764,
+        "pos": 0.097,
+        "compound": -0.9999
+    },
+    "Babbage_The_tech_behind_ChatGPT—an_episode_from_our_archive": {
+        "neg": 0.025,
+        "neu": 0.825,
+        "pos": 0.151,
+        "compound": 1.0
+    },
+    "Babbage_The_unfinished_genomics_revolution": {
+        "neg": 0.023,
+        "neu": 0.871,
+        "pos": 0.106,
+        "compound": 1.0
+    },
+    "Babbage_The_urgency_to_green_the_electric_grid": {
+        "neg": 0.036,
+        "neu": 0.84,
+        "pos": 0.124,
+        "compound": 1.0
+    },
+    "Babbage_Understanding_same-sex_attraction_in_people": {
+        "neg": 0.05,
+        "neu": 0.82,
+        "pos": 0.13,
+        "compound": 1.0
+    },
+    "Babbage_Untangling_quantum_mechanics_with_Nobel_laureate_Anton_Zeilinger": {
+        "neg": 0.028,
+        "neu": 0.879,
+        "pos": 0.094,
+        "compound": 0.9999
+    },
+    "Babbage_Vint_Cerf_on_how_to_wisely_regulate_AI": {
+        "neg": 0.051,
+        "neu": 0.825,
+        "pos": 0.124,
+        "compound": 0.9999
+    },
     "Babbage_Welcome_to_Economist_Podcasts+": {
         "neg": 0.056,
         "neu": 0.827,
         "pos": 0.117,
         "compound": 0.9644
+    },
+    "Babbage_What_causes_long_covid": {
+        "neg": 0.079,
+        "neu": 0.802,
+        "pos": 0.119,
+        "compound": 0.9998
+    },
+    "Babbage_What_if_generative_AI_destroys_biometric_security": {
+        "neg": 0.069,
+        "neu": 0.813,
+        "pos": 0.119,
+        "compound": 0.9999
     },
     "Babbage_Why_disinformation_is_more_dangerous_than_ever": {
         "neg": 0.068,
@@ -413,16 +821,40 @@
         "pos": 0.088,
         "compound": 0.9991
     },
+    "Babbage_Will_bird_flu_cause_the_next_human_pandemic": {
+        "neg": 0.105,
+        "neu": 0.819,
+        "pos": 0.077,
+        "compound": -0.9997
+    },
     "Baby_doomers_Should_you_worry_about_falling_birth_rates": {
         "neg": 0.052,
         "neu": 0.859,
         "pos": 0.089,
         "compound": 0.9998
     },
+    "Back_to_front_visiting_Ukraine’s_firing_line": {
+        "neg": 0.075,
+        "neu": 0.816,
+        "pos": 0.109,
+        "compound": 0.9988
+    },
     "Bait_the_hook!_Fishing_in_the_global_talent_pool": {
         "neg": 0.058,
         "neu": 0.81,
         "pos": 0.132,
+        "compound": 0.9999
+    },
+    "Bakhmut_point_Ukraine_readies_a_counter-offensive": {
+        "neg": 0.091,
+        "neu": 0.812,
+        "pos": 0.097,
+        "compound": 0.9881
+    },
+    "Balancing_of_Powers_India’s_foreign_policy": {
+        "neg": 0.069,
+        "neu": 0.789,
+        "pos": 0.143,
         "compound": 0.9999
     },
     "Ballot_box_bets_What_America's_election_means_for_investors": {
@@ -431,11 +863,35 @@
         "pos": 0.145,
         "compound": 1.0
     },
+    "Bear_backed_Xi_heads_to_Moscow": {
+        "neg": 0.073,
+        "neu": 0.813,
+        "pos": 0.114,
+        "compound": 0.9996
+    },
     "Beirut_force_Israel_kills_Hizbullah_leader": {
         "neg": 0.109,
         "neu": 0.781,
         "pos": 0.11,
         "compound": -0.8699
+    },
+    "Belarusian_roulette_a_mutiny’s_aftermath": {
+        "neg": 0.087,
+        "neu": 0.804,
+        "pos": 0.109,
+        "compound": 0.9983
+    },
+    "Best-of_three_our_country,_books_and_games_of_the_year": {
+        "neg": 0.085,
+        "neu": 0.773,
+        "pos": 0.142,
+        "compound": 0.9997
+    },
+    "Better_call_Kissinger_an_interview_with_the_renowned_diplomat": {
+        "neg": 0.066,
+        "neu": 0.777,
+        "pos": 0.158,
+        "compound": 0.9999
     },
     "Bet_noir_Macron’s_electoral_gamble_backfires": {
         "neg": 0.053,
@@ -455,17 +911,41 @@
         "pos": 0.116,
         "compound": 0.9984
     },
+    "Bibi_bump_Israel’s_unrest_flares": {
+        "neg": 0.075,
+        "neu": 0.822,
+        "pos": 0.102,
+        "compound": 0.9987
+    },
     "Bibi_talk_a_speech_light_on_detail": {
         "neg": 0.093,
         "neu": 0.805,
         "pos": 0.103,
         "compound": 0.972
     },
+    "Bibi’s_gambit_Israel’s_government_v_its_judiciary": {
+        "neg": 0.08,
+        "neu": 0.822,
+        "pos": 0.098,
+        "compound": 0.9977
+    },
+    "Bibi’s_got_backup_Israel’s_right-wing_government": {
+        "neg": 0.09,
+        "neu": 0.811,
+        "pos": 0.099,
+        "compound": 0.9918
+    },
     "Bidin’_will_Joe_go_or_no": {
         "neg": 0.056,
         "neu": 0.813,
         "pos": 0.13,
         "compound": 0.9998
+    },
+    "Big-claims_court_Donald_Trump’s_latest_indictment": {
+        "neg": 0.081,
+        "neu": 0.788,
+        "pos": 0.131,
+        "compound": 0.9997
     },
     "Black_boxes_(part_one)_Michael_Kovrig_on_how_he_became_a_political_hostage_in_China": {
         "neg": 0.093,
@@ -485,11 +965,29 @@
         "pos": 0.076,
         "compound": -0.9995
     },
+    "Bloc_can_tackle_ECOWAS_and_Niger’s_coup": {
+        "neg": 0.091,
+        "neu": 0.776,
+        "pos": 0.133,
+        "compound": 0.9996
+    },
+    "Blown_speaker_Kevin_McCarthy_is_out": {
+        "neg": 0.058,
+        "neu": 0.829,
+        "pos": 0.114,
+        "compound": 0.9997
+    },
     "Boiling_over_an_attempt_on_the_Slovakian_PM’s_life": {
         "neg": 0.075,
         "neu": 0.827,
         "pos": 0.097,
         "compound": 0.9977
+    },
+    "Bold_eagle_America's_industrial_evolution": {
+        "neg": 0.063,
+        "neu": 0.811,
+        "pos": 0.125,
+        "compound": 0.9998
     },
     "Boom!_Episode_1_1968_-_Born_to_be_wild": {
         "neg": 0.126,
@@ -527,6 +1025,24 @@
         "pos": 0.122,
         "compound": 0.9988
     },
+    "Bot_the_difference_AI_and_the_future_of_search": {
+        "neg": 0.036,
+        "neu": 0.818,
+        "pos": 0.146,
+        "compound": 0.9999
+    },
+    "Brazilian_balancing_act_Lula’s_foreign_policy_plans": {
+        "neg": 0.079,
+        "neu": 0.794,
+        "pos": 0.127,
+        "compound": 0.9996
+    },
+    "Break_camp_Israel’s_West_Bank_raids": {
+        "neg": 0.075,
+        "neu": 0.825,
+        "pos": 0.101,
+        "compound": 0.9976
+    },
     "Bulls’_AI_funding_artificial_intelligence": {
         "neg": 0.071,
         "neu": 0.822,
@@ -539,11 +1055,29 @@
         "pos": 0.093,
         "compound": 0.9795
     },
+    "Call_of_duties_the_global_costs_of_war": {
+        "neg": 0.061,
+        "neu": 0.788,
+        "pos": 0.15,
+        "compound": 0.9999
+    },
     "Carry-trade_wars_why_the_market_rout_may_not_be_over_yet": {
         "neg": 0.058,
         "neu": 0.829,
         "pos": 0.113,
         "compound": 0.9999
+    },
+    "Cash_out_the_digital-payments_revolution": {
+        "neg": 0.046,
+        "neu": 0.839,
+        "pos": 0.115,
+        "compound": 0.9999
+    },
+    "Cattle_lines_are_drawn_cows_in_India": {
+        "neg": 0.08,
+        "neu": 0.823,
+        "pos": 0.097,
+        "compound": 0.9978
     },
     "Certainly_uncertain_navigating_risk_and_probability_with_Sir_David_Spiegelhalter": {
         "neg": 0.07,
@@ -557,17 +1091,65 @@
         "pos": 0.128,
         "compound": 0.9997
     },
+    "Changing_the_Guard_Turkey’s_inconclusive_election": {
+        "neg": 0.084,
+        "neu": 0.784,
+        "pos": 0.131,
+        "compound": 0.9995
+    },
+    "Charged_up_Trump’s_latest_indictment": {
+        "neg": 0.083,
+        "neu": 0.814,
+        "pos": 0.103,
+        "compound": 0.998
+    },
+    "Charge_d’affair_Donald_Trump_indicted": {
+        "neg": 0.059,
+        "neu": 0.803,
+        "pos": 0.138,
+        "compound": 0.9999
+    },
+    "Charming_the_prince_Biden_seeks_a_deal_with_Saudi_Arabia": {
+        "neg": 0.074,
+        "neu": 0.815,
+        "pos": 0.112,
+        "compound": 0.9992
+    },
     "Checks_and_Balance_About_time": {
         "neg": 0.097,
         "neu": 0.763,
         "pos": 0.14,
         "compound": 0.9999
     },
+    "Checks_and_Balance_Affirmative_redaction": {
+        "neg": 0.061,
+        "neu": 0.797,
+        "pos": 0.142,
+        "compound": 1.0
+    },
     "Checks_and_Balance_Aid,_and_a_bet": {
         "neg": 0.089,
         "neu": 0.805,
         "pos": 0.106,
         "compound": 0.9991
+    },
+    "Checks_and_Balance_Alaska,_part_one—oil_and_trouble": {
+        "neg": 0.062,
+        "neu": 0.83,
+        "pos": 0.108,
+        "compound": 0.9994
+    },
+    "Checks_and_Balance_Alaska,_part_two—thin_ice": {
+        "neg": 0.068,
+        "neu": 0.843,
+        "pos": 0.089,
+        "compound": 0.9983
+    },
+    "Checks_and_Balance_All_the_committee_in_China": {
+        "neg": 0.054,
+        "neu": 0.82,
+        "pos": 0.126,
+        "compound": 1.0
     },
     "Checks_and_Balance_aNATOmy_of_a_scandal": {
         "neg": 0.091,
@@ -581,6 +1163,36 @@
         "pos": 0.134,
         "compound": 1.0
     },
+    "Checks_and_Balance_An_academic_question": {
+        "neg": 0.071,
+        "neu": 0.804,
+        "pos": 0.124,
+        "compound": 0.9999
+    },
+    "Checks_and_Balance_Aussies_rule": {
+        "neg": 0.078,
+        "neu": 0.797,
+        "pos": 0.125,
+        "compound": 0.9999
+    },
+    "Checks_and_Balance_A_novel_approach": {
+        "neg": 0.054,
+        "neu": 0.779,
+        "pos": 0.167,
+        "compound": 1.0
+    },
+    "Checks_and_Balance_A_yard_act_to_follow": {
+        "neg": 0.051,
+        "neu": 0.82,
+        "pos": 0.129,
+        "compound": 1.0
+    },
+    "Checks_and_Balance_Best_friends_forever": {
+        "neg": 0.061,
+        "neu": 0.81,
+        "pos": 0.128,
+        "compound": 0.9999
+    },
     "Checks_and_Balance_Biden_or_bust": {
         "neg": 0.08,
         "neu": 0.781,
@@ -593,11 +1205,23 @@
         "pos": 0.118,
         "compound": 0.9984
     },
+    "Checks_and_Balance_Border_disorder": {
+        "neg": 0.063,
+        "neu": 0.824,
+        "pos": 0.114,
+        "compound": 0.9999
+    },
     "Checks_and_Balance_Border_of_magnitude": {
         "neg": 0.063,
         "neu": 0.825,
         "pos": 0.113,
         "compound": 0.9999
+    },
+    "Checks_and_Balance_Broad_stripes,_bright_stars": {
+        "neg": 0.081,
+        "neu": 0.758,
+        "pos": 0.161,
+        "compound": 1.0
     },
     "Checks_and_Balance_Capitol_gains": {
         "neg": 0.048,
@@ -611,6 +1235,12 @@
         "pos": 0.109,
         "compound": 0.9893
     },
+    "Checks_and_Balance_Chicagoes_to_the_polls": {
+        "neg": 0.092,
+        "neu": 0.792,
+        "pos": 0.115,
+        "compound": 0.9993
+    },
     "Checks_and_Balance_COP_to_it": {
         "neg": 0.046,
         "neu": 0.807,
@@ -620,6 +1250,30 @@
     "Checks_and_Balance_Court_in_a_trap": {
         "neg": 0.061,
         "neu": 0.81,
+        "pos": 0.129,
+        "compound": 1.0
+    },
+    "Checks_and_Balance_Electric_dreams": {
+        "neg": 0.048,
+        "neu": 0.833,
+        "pos": 0.118,
+        "compound": 1.0
+    },
+    "Checks_and_Balance_Entitled": {
+        "neg": 0.071,
+        "neu": 0.766,
+        "pos": 0.163,
+        "compound": 1.0
+    },
+    "Checks_and_Balance_Fox_hunted": {
+        "neg": 0.067,
+        "neu": 0.808,
+        "pos": 0.124,
+        "compound": 0.9999
+    },
+    "Checks_and_Balance_Gold_lone_star": {
+        "neg": 0.034,
+        "neu": 0.837,
         "pos": 0.129,
         "compound": 1.0
     },
@@ -635,17 +1289,77 @@
         "pos": 0.129,
         "compound": 1.0
     },
+    "Checks_and_Balance_Hunting_ground": {
+        "neg": 0.063,
+        "neu": 0.824,
+        "pos": 0.113,
+        "compound": 0.9999
+    },
+    "Checks_and_Balance_Incoming_alerts": {
+        "neg": 0.054,
+        "neu": 0.818,
+        "pos": 0.127,
+        "compound": 1.0
+    },
+    "Checks_and_Balance_Inequality_qualities": {
+        "neg": 0.056,
+        "neu": 0.79,
+        "pos": 0.154,
+        "compound": 1.0
+    },
+    "Checks_and_Balance_Intelligence_test": {
+        "neg": 0.088,
+        "neu": 0.783,
+        "pos": 0.129,
+        "compound": 0.9998
+    },
+    "Checks_and_Balance_Justice_deserts": {
+        "neg": 0.074,
+        "neu": 0.788,
+        "pos": 0.139,
+        "compound": 0.9999
+    },
     "Checks_and_Balance_Live_from_Philadelphia": {
         "neg": 0.057,
         "neu": 0.819,
         "pos": 0.124,
         "compound": 1.0
     },
+    "Checks_and_Balance_Los_diablos_de_Los_Angeles": {
+        "neg": 0.062,
+        "neu": 0.827,
+        "pos": 0.111,
+        "compound": 0.9999
+    },
+    "Checks_and_Balance_Man_problems": {
+        "neg": 0.094,
+        "neu": 0.798,
+        "pos": 0.108,
+        "compound": 0.9985
+    },
     "Checks_and_Balance_Media_studies": {
         "neg": 0.076,
         "neu": 0.8,
         "pos": 0.124,
         "compound": 0.9999
+    },
+    "Checks_and_Balance_Minneapolice": {
+        "neg": 0.096,
+        "neu": 0.785,
+        "pos": 0.12,
+        "compound": 0.9992
+    },
+    "Checks_and_Balance_Park_the_bench": {
+        "neg": 0.067,
+        "neu": 0.795,
+        "pos": 0.138,
+        "compound": 1.0
+    },
+    "Checks_and_Balance_Partied_out": {
+        "neg": 0.051,
+        "neu": 0.816,
+        "pos": 0.133,
+        "compound": 1.0
     },
     "Checks_and_Balance_Peace_of_Mind": {
         "neg": 0.093,
@@ -719,6 +1433,12 @@
         "pos": 0.152,
         "compound": 0.9979
     },
+    "Checks_and_Balance_Place_and_CHIPS": {
+        "neg": 0.051,
+        "neu": 0.802,
+        "pos": 0.147,
+        "compound": 1.0
+    },
     "Checks_and_Balance_Podcasting_we_can_believe_in": {
         "neg": 0.07,
         "neu": 0.806,
@@ -737,6 +1457,30 @@
         "pos": 0.145,
         "compound": 1.0
     },
+    "Checks_and_Balance_Roe_away": {
+        "neg": 0.051,
+        "neu": 0.829,
+        "pos": 0.12,
+        "compound": 0.9999
+    },
+    "Checks_and_Balance_Run_of_the_statehouse": {
+        "neg": 0.064,
+        "neu": 0.813,
+        "pos": 0.124,
+        "compound": 0.9999
+    },
+    "Checks_and_Balance_Seal_the_deal": {
+        "neg": 0.097,
+        "neu": 0.782,
+        "pos": 0.121,
+        "compound": 0.9996
+    },
+    "Checks_and_Balance_Sit_on_defence": {
+        "neg": 0.104,
+        "neu": 0.777,
+        "pos": 0.118,
+        "compound": 0.9946
+    },
     "Checks_and_Balance_Six_months_in": {
         "neg": 0.093,
         "neu": 0.785,
@@ -747,6 +1491,18 @@
         "neg": 0.063,
         "neu": 0.815,
         "pos": 0.122,
+        "compound": 1.0
+    },
+    "Checks_and_Balance_Speaker_out_of_turn": {
+        "neg": 0.067,
+        "neu": 0.812,
+        "pos": 0.122,
+        "compound": 0.9999
+    },
+    "Checks_and_Balance_Starting_places": {
+        "neg": 0.059,
+        "neu": 0.808,
+        "pos": 0.133,
         "compound": 1.0
     },
     "Checks_and_Balance_Stormy_weather": {
@@ -761,6 +1517,48 @@
         "pos": 0.114,
         "compound": 0.9985
     },
+    "Checks_and_Balance_Strike_while_it's_hot": {
+        "neg": 0.053,
+        "neu": 0.797,
+        "pos": 0.15,
+        "compound": 1.0
+    },
+    "Checks_and_Balance_The_20_year_epidemic,_part_1": {
+        "neg": 0.114,
+        "neu": 0.783,
+        "pos": 0.104,
+        "compound": -0.9994
+    },
+    "Checks_and_Balance_The_20_year_epidemic,_part_2": {
+        "neg": 0.08,
+        "neu": 0.815,
+        "pos": 0.105,
+        "compound": 0.9995
+    },
+    "Checks_and_Balance_The_body_in_a_barrel": {
+        "neg": 0.086,
+        "neu": 0.835,
+        "pos": 0.079,
+        "compound": -0.9961
+    },
+    "Checks_and_Balance_The_great_fall_of_China’s_balloon": {
+        "neg": 0.069,
+        "neu": 0.798,
+        "pos": 0.133,
+        "compound": 0.9999
+    },
+    "Checks_and_Balance_The_heat_is_on": {
+        "neg": 0.05,
+        "neu": 0.824,
+        "pos": 0.126,
+        "compound": 1.0
+    },
+    "Checks_and_Balance_The_Joeconomy": {
+        "neg": 0.044,
+        "neu": 0.82,
+        "pos": 0.136,
+        "compound": 1.0
+    },
     "Checks_and_Balance_The_swing_of_things": {
         "neg": 0.039,
         "neu": 0.827,
@@ -773,11 +1571,35 @@
         "pos": 0.159,
         "compound": 1.0
     },
+    "Checks_and_Balance_Trump!_Here_we_go_again": {
+        "neg": 0.059,
+        "neu": 0.799,
+        "pos": 0.142,
+        "compound": 1.0
+    },
+    "Checks_and_Balance_Trump_carded": {
+        "neg": 0.088,
+        "neu": 0.795,
+        "pos": 0.117,
+        "compound": 0.9997
+    },
+    "Checks_and_Balance_Trump_turns_up": {
+        "neg": 0.075,
+        "neu": 0.814,
+        "pos": 0.111,
+        "compound": 0.9999
+    },
     "Checks_and_Balance_Update_on_Alaskan_oil_and_ice": {
         "neg": 0.062,
         "neu": 0.84,
         "pos": 0.098,
         "compound": 0.9998
+    },
+    "Checks_and_Balance_War_in_the_Middle_East": {
+        "neg": 0.116,
+        "neu": 0.785,
+        "pos": 0.099,
+        "compound": -0.9996
     },
     "Checks_and_Balance_Welcome_to_Economist_Podcasts+": {
         "neg": 0.049,
@@ -809,11 +1631,23 @@
         "pos": 0.143,
         "compound": 1.0
     },
+    "Checks_and_Balance_You_asked,_we_answer": {
+        "neg": 0.056,
+        "neu": 0.802,
+        "pos": 0.143,
+        "compound": 1.0
+    },
     "Cheese_stakes_the_race_for_Wisconsin": {
         "neg": 0.039,
         "neu": 0.817,
         "pos": 0.145,
         "compound": 1.0
+    },
+    "Chilean_effect_the_50th_anniversary_of_the_coup": {
+        "neg": 0.067,
+        "neu": 0.797,
+        "pos": 0.136,
+        "compound": 0.9999
     },
     "China’s_economy_is_Xi_listening": {
         "neg": 0.059,
@@ -839,11 +1673,35 @@
         "pos": 0.128,
         "compound": 1.0
     },
+    "Climbers_(part_one)_A_way_out_of_China": {
+        "neg": 0.094,
+        "neu": 0.822,
+        "pos": 0.084,
+        "compound": -0.9934
+    },
+    "Clone_wars_Meta’s_Threads_takes_on_Twitter": {
+        "neg": 0.071,
+        "neu": 0.795,
+        "pos": 0.134,
+        "compound": 0.9998
+    },
+    "Cloud_coup-coup_land_riots_in_Brazil": {
+        "neg": 0.062,
+        "neu": 0.816,
+        "pos": 0.122,
+        "compound": 0.9997
+    },
     "Come_on_out,_the_vacuum’s_fine_SpaceX": {
         "neg": 0.043,
         "neu": 0.842,
         "pos": 0.116,
         "compound": 0.9999
+    },
+    "Continental_drift_Europe’s_challenges": {
+        "neg": 0.069,
+        "neu": 0.807,
+        "pos": 0.124,
+        "compound": 0.9998
     },
     "Cosmology_in_crisis,_part_one_how_to_build_a_universe": {
         "neg": 0.024,
@@ -863,6 +1721,12 @@
         "pos": 0.111,
         "compound": 0.9983
     },
+    "Cruel_summer_heatwaves_rage_across_the_world": {
+        "neg": 0.091,
+        "neu": 0.811,
+        "pos": 0.098,
+        "compound": 0.9084
+    },
     "Cryptic_message_why_arrest_Telegram’s_founder": {
         "neg": 0.069,
         "neu": 0.803,
@@ -875,11 +1739,29 @@
         "pos": 0.134,
         "compound": 0.9999
     },
+    "Dam_and_blast_Ukraine_launches_counter-offensive": {
+        "neg": 0.105,
+        "neu": 0.827,
+        "pos": 0.068,
+        "compound": -0.9995
+    },
     "Dangerous_allure_Why_the_China_model_still_appeals_overseas": {
         "neg": 0.029,
         "neu": 0.841,
         "pos": 0.13,
         "compound": 1.0
+    },
+    "Death_of_a_salesman_Silvio_Berlusconi": {
+        "neg": 0.081,
+        "neu": 0.793,
+        "pos": 0.126,
+        "compound": 0.9994
+    },
+    "Debasement_all_around_lessons_from_16th-century_inflation": {
+        "neg": 0.057,
+        "neu": 0.838,
+        "pos": 0.105,
+        "compound": 0.9997
     },
     "Debate_and_switch_Biden’s_stumble": {
         "neg": 0.072,
@@ -892,6 +1774,12 @@
         "neu": 0.813,
         "pos": 0.113,
         "compound": 0.9998
+    },
+    "Debtors’_prism_mounting_crises_of_Africa’s_loans": {
+        "neg": 0.067,
+        "neu": 0.812,
+        "pos": 0.12,
+        "compound": 0.9997
     },
     "Degree_programme_stopping_heat_deaths": {
         "neg": 0.072,
@@ -917,6 +1805,30 @@
         "pos": 0.113,
         "compound": 0.9994
     },
+    "Didn’t_protect_or_serve_Tyre_Nichols’s_killing": {
+        "neg": 0.129,
+        "neu": 0.77,
+        "pos": 0.101,
+        "compound": -0.9996
+    },
+    "Difference_between_right_and_Ron_DeSantis_miscalculates": {
+        "neg": 0.085,
+        "neu": 0.81,
+        "pos": 0.105,
+        "compound": 0.9974
+    },
+    "Diplomacy_up_in_smoke_Biden_visits_Israel": {
+        "neg": 0.122,
+        "neu": 0.771,
+        "pos": 0.107,
+        "compound": -0.9979
+    },
+    "Doctors’_disorders_Britain’s_overwhelmed_health_service": {
+        "neg": 0.115,
+        "neu": 0.781,
+        "pos": 0.104,
+        "compound": -0.9989
+    },
     "Doing_their_not-own_thing_“generation_rent”": {
         "neg": 0.067,
         "neu": 0.815,
@@ -935,11 +1847,59 @@
         "pos": 0.108,
         "compound": 0.9982
     },
+    "Drum_Tower_A,_B,_Xi": {
+        "neg": 0.042,
+        "neu": 0.804,
+        "pos": 0.154,
+        "compound": 1.0
+    },
+    "Drum_Tower_Against_the_grain": {
+        "neg": 0.051,
+        "neu": 0.806,
+        "pos": 0.143,
+        "compound": 1.0
+    },
+    "Drum_Tower_Autocrats'_pact": {
+        "neg": 0.107,
+        "neu": 0.772,
+        "pos": 0.121,
+        "compound": 0.998
+    },
+    "Drum_Tower_A_tale_of_two_Chinas": {
+        "neg": 0.064,
+        "neu": 0.824,
+        "pos": 0.111,
+        "compound": 0.9999
+    },
+    "Drum_Tower_Baby_bust": {
+        "neg": 0.05,
+        "neu": 0.821,
+        "pos": 0.129,
+        "compound": 0.9999
+    },
     "Drum_Tower_Beating_of_the_war_drums": {
         "neg": 0.076,
         "neu": 0.773,
         "pos": 0.151,
         "compound": 1.0
+    },
+    "Drum_Tower_Belt_tightening": {
+        "neg": 0.045,
+        "neu": 0.83,
+        "pos": 0.125,
+        "compound": 0.9999
+    },
+    "Drum_Tower_Bordering_on_difficult": {
+        "neg": 0.06,
+        "neu": 0.823,
+        "pos": 0.117,
+        "compound": 0.9999
+    },
+    "Drum_Tower_Bricks_and_people": {
+        "neg": 0.06,
+        "neu": 0.823,
+        "pos": 0.118,
+        "compound": 0.9998
     },
     "Drum_Tower_Can_chips_save_Taiwan": {
         "neg": 0.06,
@@ -953,6 +1913,36 @@
         "pos": 0.127,
         "compound": 0.9999
     },
+    "Drum_Tower_Cash_into_their_chips": {
+        "neg": 0.029,
+        "neu": 0.827,
+        "pos": 0.145,
+        "compound": 1.0
+    },
+    "Drum_Tower_Chairman_of_everything": {
+        "neg": 0.088,
+        "neu": 0.771,
+        "pos": 0.141,
+        "compound": 0.9999
+    },
+    "Drum_Tower_China_v_America": {
+        "neg": 0.098,
+        "neu": 0.779,
+        "pos": 0.122,
+        "compound": 0.9995
+    },
+    "Drum_Tower_China’s_cheapest_city": {
+        "neg": 0.045,
+        "neu": 0.848,
+        "pos": 0.107,
+        "compound": 0.9999
+    },
+    "Drum_Tower_China’s_LGBT_crackdown": {
+        "neg": 0.065,
+        "neu": 0.817,
+        "pos": 0.118,
+        "compound": 0.9998
+    },
     "Drum_Tower_Civilising_the_masses": {
         "neg": 0.042,
         "neu": 0.79,
@@ -963,6 +1953,24 @@
         "neg": 0.037,
         "neu": 0.808,
         "pos": 0.155,
+        "compound": 0.9999
+    },
+    "Drum_Tower_Cracks_in_the_consensus": {
+        "neg": 0.075,
+        "neu": 0.798,
+        "pos": 0.128,
+        "compound": 0.9998
+    },
+    "Drum_Tower_Decisive_victory": {
+        "neg": 0.084,
+        "neu": 0.804,
+        "pos": 0.112,
+        "compound": 0.9996
+    },
+    "Drum_Tower_Digging_the_past": {
+        "neg": 0.04,
+        "neu": 0.839,
+        "pos": 0.121,
         "compound": 0.9999
     },
     "Drum_Tower_Film_Club_with_“Farewell_My_Concubine”": {
@@ -983,10 +1991,52 @@
         "pos": 0.149,
         "compound": 0.9999
     },
+    "Drum_Tower_For_richer,_for_poorer": {
+        "neg": 0.058,
+        "neu": 0.826,
+        "pos": 0.116,
+        "compound": 0.9999
+    },
+    "Drum_Tower_goes_to_Washington_DC": {
+        "neg": 0.045,
+        "neu": 0.816,
+        "pos": 0.139,
+        "compound": 1.0
+    },
+    "Drum_Tower_Hey,_big_spenders": {
+        "neg": 0.075,
+        "neu": 0.802,
+        "pos": 0.123,
+        "compound": 0.9999
+    },
     "Drum_Tower_How_Alzheimer's_will_test_China": {
         "neg": 0.054,
         "neu": 0.809,
         "pos": 0.137,
+        "compound": 1.0
+    },
+    "Drum_Tower_Inside_Fortress_China": {
+        "neg": 0.068,
+        "neu": 0.803,
+        "pos": 0.129,
+        "compound": 0.9999
+    },
+    "Drum_Tower_Islands_in_the_Strait": {
+        "neg": 0.068,
+        "neu": 0.806,
+        "pos": 0.126,
+        "compound": 0.9999
+    },
+    "Drum_Tower_Long_gowns_and_short_jackets": {
+        "neg": 0.084,
+        "neu": 0.778,
+        "pos": 0.137,
+        "compound": 0.9999
+    },
+    "Drum_Tower_Mazu_and_the_motherland": {
+        "neg": 0.028,
+        "neu": 0.804,
+        "pos": 0.168,
         "compound": 1.0
     },
     "Drum_Tower_Modern_lessons_in_ancient_exams": {
@@ -995,11 +2045,41 @@
         "pos": 0.15,
         "compound": 1.0
     },
+    "Drum_Tower_Neighbourhood_watch": {
+        "neg": 0.07,
+        "neu": 0.812,
+        "pos": 0.118,
+        "compound": 0.9997
+    },
     "Drum_Tower_New_jello,_new_nail": {
         "neg": 0.048,
         "neu": 0.797,
         "pos": 0.155,
         "compound": 1.0
+    },
+    "Drum_Tower_Nuclear_reaction": {
+        "neg": 0.09,
+        "neu": 0.783,
+        "pos": 0.127,
+        "compound": 0.9998
+    },
+    "Drum_Tower_Open_for_business": {
+        "neg": 0.059,
+        "neu": 0.789,
+        "pos": 0.152,
+        "compound": 1.0
+    },
+    "Drum_Tower_Outbreak_of_bossiness": {
+        "neg": 0.065,
+        "neu": 0.8,
+        "pos": 0.136,
+        "compound": 0.9999
+    },
+    "Drum_Tower_Pain_without_parole": {
+        "neg": 0.124,
+        "neu": 0.775,
+        "pos": 0.102,
+        "compound": -0.9995
     },
     "Drum_Tower_People’s_Democra-Xi": {
         "neg": 0.045,
@@ -1097,6 +2177,24 @@
         "pos": 0.122,
         "compound": 0.9979
     },
+    "Drum_Tower_Riding_an_express_train_of_China’s_development": {
+        "neg": 0.045,
+        "neu": 0.813,
+        "pos": 0.142,
+        "compound": 1.0
+    },
+    "Drum_Tower_Slow_train_home": {
+        "neg": 0.051,
+        "neu": 0.824,
+        "pos": 0.125,
+        "compound": 1.0
+    },
+    "Drum_Tower_Solo-motherland": {
+        "neg": 0.051,
+        "neu": 0.813,
+        "pos": 0.137,
+        "compound": 1.0
+    },
     "Drum_Tower_South_China_Seaside": {
         "neg": 0.054,
         "neu": 0.849,
@@ -1109,17 +2207,53 @@
         "pos": 0.147,
         "compound": 0.9999
     },
+    "Drum_Tower_Startle_the_heart": {
+        "neg": 0.097,
+        "neu": 0.784,
+        "pos": 0.119,
+        "compound": 0.9994
+    },
     "Drum_Tower_Taiwan_goes_to_the_polls": {
         "neg": 0.076,
         "neu": 0.778,
         "pos": 0.147,
         "compound": 1.0
     },
+    "Drum_Tower_The_cage–part_one": {
+        "neg": 0.09,
+        "neu": 0.814,
+        "pos": 0.096,
+        "compound": 0.9698
+    },
+    "Drum_Tower_The_cage—part_two": {
+        "neg": 0.106,
+        "neu": 0.772,
+        "pos": 0.121,
+        "compound": 0.9967
+    },
     "Drum_Tower_The_ideal_family": {
         "neg": 0.062,
         "neu": 0.82,
         "pos": 0.118,
         "compound": 0.9999
+    },
+    "Drum_Tower_The_new_wave": {
+        "neg": 0.103,
+        "neu": 0.802,
+        "pos": 0.094,
+        "compound": -0.9977
+    },
+    "Drum_Tower_The_prince_and_the_prime_minister": {
+        "neg": 0.051,
+        "neu": 0.807,
+        "pos": 0.142,
+        "compound": 1.0
+    },
+    "Drum_Tower_The_red_and_the_green": {
+        "neg": 0.077,
+        "neu": 0.801,
+        "pos": 0.121,
+        "compound": 0.9997
     },
     "Drum_Tower_The_secret_of_the_surveillance_state": {
         "neg": 0.069,
@@ -1133,10 +2267,40 @@
         "pos": 0.097,
         "compound": 0.9996
     },
+    "Drum_Tower_The_strangers_next_door": {
+        "neg": 0.067,
+        "neu": 0.809,
+        "pos": 0.124,
+        "compound": 0.9998
+    },
     "Drum_Tower_Tick_tock_for_TikTok": {
         "neg": 0.079,
         "neu": 0.798,
         "pos": 0.123,
+        "compound": 0.9999
+    },
+    "Drum_Tower_Two_Top_Guns": {
+        "neg": 0.089,
+        "neu": 0.752,
+        "pos": 0.159,
+        "compound": 0.9999
+    },
+    "Drum_Tower_Up_in_the_air": {
+        "neg": 0.106,
+        "neu": 0.787,
+        "pos": 0.106,
+        "compound": -0.9862
+    },
+    "Drum_Tower_Waiting_games": {
+        "neg": 0.092,
+        "neu": 0.798,
+        "pos": 0.11,
+        "compound": 0.9986
+    },
+    "Drum_Tower_Walls_and_ladders": {
+        "neg": 0.057,
+        "neu": 0.814,
+        "pos": 0.129,
         "compound": 0.9999
     },
     "Drum_Tower_Welcome_to_Economist_Podcasts+": {
@@ -1169,11 +2333,23 @@
         "pos": 0.131,
         "compound": 0.9999
     },
+    "Drum_Tower_Your_questions_on_China_answered": {
+        "neg": 0.078,
+        "neu": 0.776,
+        "pos": 0.146,
+        "compound": 0.9999
+    },
     "Drum_Tower_Yunnan_Mongolians": {
         "neg": 0.039,
         "neu": 0.817,
         "pos": 0.144,
         "compound": 1.0
+    },
+    "Drum_Tower_Zero_no_more": {
+        "neg": 0.102,
+        "neu": 0.8,
+        "pos": 0.098,
+        "compound": -0.9966
     },
     "Drum_Tower__Competing_for_kids": {
         "neg": 0.06,
@@ -1198,6 +2374,18 @@
         "neu": 0.831,
         "pos": 0.141,
         "compound": 0.9999
+    },
+    "End-Gulfed_Preparing_for_a_post-oil_future": {
+        "neg": 0.054,
+        "neu": 0.828,
+        "pos": 0.118,
+        "compound": 0.9998
+    },
+    "End_run_Silicon_Valley_Bank": {
+        "neg": 0.051,
+        "neu": 0.856,
+        "pos": 0.093,
+        "compound": 0.9995
     },
     "Enter_staged_right_misinformation_feeds_Britain’s_riots": {
         "neg": 0.136,
@@ -1247,17 +2435,59 @@
         "pos": 0.099,
         "compound": 0.9937
     },
+    "Feeling_un-Wellington": {
+        "neg": 0.076,
+        "neu": 0.778,
+        "pos": 0.146,
+        "compound": 0.9999
+    },
+    "Felling_through_the_cracks_rainforests_in_crisis": {
+        "neg": 0.098,
+        "neu": 0.795,
+        "pos": 0.108,
+        "compound": 0.962
+    },
+    "Fellow-BRICS_road_a_club_expands": {
+        "neg": 0.056,
+        "neu": 0.83,
+        "pos": 0.114,
+        "compound": 0.9997
+    },
     "Field_of_streams_sports_viewing_changes": {
         "neg": 0.057,
         "neu": 0.842,
         "pos": 0.102,
         "compound": 0.9996
     },
+    "Fighting_chance_Ukraine_prepares_for_counter-offensive": {
+        "neg": 0.064,
+        "neu": 0.835,
+        "pos": 0.1,
+        "compound": 0.9988
+    },
     "Fight_for_his_party_to_the_right_Nigel_Farage": {
         "neg": 0.05,
         "neu": 0.816,
         "pos": 0.134,
         "compound": 0.9999
+    },
+    "File-sharing_America’s_huge_intelligence_leak": {
+        "neg": 0.07,
+        "neu": 0.808,
+        "pos": 0.122,
+        "compound": 0.9996
+    },
+    "Fire_and_grim_tone_Putin’s_and_Biden’s_speeches": {
+        "neg": 0.144,
+        "neu": 0.726,
+        "pos": 0.13,
+        "compound": -0.9979
+    },
+    "Flight_of_the_long_knives_Prigozhin’s_reported_death": {
+        "neg": 0.056,
+        "neu": 0.846,
+        "pos": 0.098,
+        "compound": 0.9989
     },
     "Foiled_again_a_second_attempt_on_Trump": {
         "neg": 0.081,
@@ -1270,6 +2500,12 @@
         "neu": 0.8,
         "pos": 0.119,
         "compound": 0.9993
+    },
+    "Forewarned_before_armed_how_to_predict_war": {
+        "neg": 0.058,
+        "neu": 0.829,
+        "pos": 0.113,
+        "compound": 0.9998
     },
     "For_the_ages_the_Supreme_Court’s_momentous_term": {
         "neg": 0.066,
@@ -1301,6 +2537,30 @@
         "pos": 0.115,
         "compound": 0.9999
     },
+    "Gain,_wait_Ukraine’s_tentative_push": {
+        "neg": 0.104,
+        "neu": 0.775,
+        "pos": 0.12,
+        "compound": 0.991
+    },
+    "Game_of_drones_can_Ukraine_pull_ahead": {
+        "neg": 0.076,
+        "neu": 0.795,
+        "pos": 0.129,
+        "compound": 0.9997
+    },
+    "General_rule_how_to_reinvent_America’s_army": {
+        "neg": 0.075,
+        "neu": 0.821,
+        "pos": 0.104,
+        "compound": 0.999
+    },
+    "General’s_knowledge_a_chat_with_Ukraine’s_spy_chief": {
+        "neg": 0.07,
+        "neu": 0.802,
+        "pos": 0.128,
+        "compound": 0.9996
+    },
     "Genocide_returns_slaughter_in_Sudan": {
         "neg": 0.142,
         "neu": 0.791,
@@ -1313,17 +2573,53 @@
         "pos": 0.13,
         "compound": 0.9999
     },
+    "Get-rich-quick_scheming_India_and_Indonesia": {
+        "neg": 0.067,
+        "neu": 0.81,
+        "pos": 0.123,
+        "compound": 0.9996
+    },
+    "Get_down_to_Syria’s_business_coming_talks_with_Turkey": {
+        "neg": 0.106,
+        "neu": 0.794,
+        "pos": 0.1,
+        "compound": -0.9935
+    },
+    "Give_fast,_spry_young_the_new_philanthropists": {
+        "neg": 0.062,
+        "neu": 0.798,
+        "pos": 0.14,
+        "compound": 0.9999
+    },
     "Global_warning_foreign_policy_and_the_election": {
         "neg": 0.078,
         "neu": 0.8,
         "pos": 0.122,
         "compound": 0.9999
     },
+    "Going,_going…_Gabon_another_African_coup": {
+        "neg": 0.064,
+        "neu": 0.828,
+        "pos": 0.108,
+        "compound": 0.9994
+    },
+    "Going_bump_in_the_right_Europe’s_worrisome_politics": {
+        "neg": 0.053,
+        "neu": 0.82,
+        "pos": 0.127,
+        "compound": 0.9998
+    },
     "Going_live_or_going_dark_why_China_is_cracking_down_on_live-streamers": {
         "neg": 0.052,
         "neu": 0.79,
         "pos": 0.158,
         "compound": 1.0
+    },
+    "Going_non-nuclear_East_Asia’s_changing_families": {
+        "neg": 0.047,
+        "neu": 0.829,
+        "pos": 0.124,
+        "compound": 0.9999
     },
     "Going_platinum_the_new_economy_in_space": {
         "neg": 0.025,
@@ -1343,6 +2639,18 @@
         "pos": 0.098,
         "compound": 0.9999
     },
+    "Good,_bad_and_ugly_the_Taliban_and_Afghanistan": {
+        "neg": 0.09,
+        "neu": 0.817,
+        "pos": 0.093,
+        "compound": -0.8908
+    },
+    "Google’s_lurch_how_to_fix_its_monopoly": {
+        "neg": 0.08,
+        "neu": 0.809,
+        "pos": 0.111,
+        "compound": 0.9989
+    },
     "Grand_Barnier_France’s_new_prime_minister": {
         "neg": 0.084,
         "neu": 0.792,
@@ -1361,17 +2669,65 @@
         "pos": 0.088,
         "compound": -0.9981
     },
+    "Group_dynamics_Wagner_in_Africa": {
+        "neg": 0.049,
+        "neu": 0.83,
+        "pos": 0.121,
+        "compound": 0.9998
+    },
+    "Guilty_party_Boris_Johnson’s_lies_catch_up_with_him": {
+        "neg": 0.081,
+        "neu": 0.795,
+        "pos": 0.124,
+        "compound": 0.9996
+    },
+    "Gun-shy_why_Niger’s_coup_stands,_for_now": {
+        "neg": 0.094,
+        "neu": 0.816,
+        "pos": 0.089,
+        "compound": -0.9838
+    },
     "Hail_Harris_the_Democratic_convention_begins": {
         "neg": 0.044,
         "neu": 0.845,
         "pos": 0.111,
         "compound": 0.9998
     },
+    "Haley_to_the_chief_A_long-shot_candidacy_begins": {
+        "neg": 0.085,
+        "neu": 0.812,
+        "pos": 0.103,
+        "compound": 0.9969
+    },
+    "Hard_pact_to_follow_the_Good_Friday_Agreement_at_25": {
+        "neg": 0.087,
+        "neu": 0.787,
+        "pos": 0.126,
+        "compound": 0.9994
+    },
+    "Has_Obi_won,_can_Obi_Nigeria’s_elections": {
+        "neg": 0.062,
+        "neu": 0.778,
+        "pos": 0.159,
+        "compound": 0.9999
+    },
+    "Hedge_of_allegiance_South_Africa’s_diplomatic_shift": {
+        "neg": 0.078,
+        "neu": 0.807,
+        "pos": 0.115,
+        "compound": 0.9991
+    },
     "Heir_tight_why_boomers_are_so_stingy": {
         "neg": 0.043,
         "neu": 0.837,
         "pos": 0.12,
         "compound": 0.9999
+    },
+    "Held_fire_America’s_murder_rate_slips": {
+        "neg": 0.134,
+        "neu": 0.747,
+        "pos": 0.119,
+        "compound": -0.9988
     },
     "High_hopes_A_decade_of_legal_cannabis": {
         "neg": 0.061,
@@ -1391,6 +2747,30 @@
         "pos": 0.104,
         "compound": -0.9779
     },
+    "Home_affairs_America’s_revealing_property_market": {
+        "neg": 0.094,
+        "neu": 0.819,
+        "pos": 0.087,
+        "compound": -0.978
+    },
+    "Home_economics_housing_markets’_future": {
+        "neg": 0.052,
+        "neu": 0.85,
+        "pos": 0.099,
+        "compound": 0.9994
+    },
+    "Home_groan_China’s_housing-sector_crisis": {
+        "neg": 0.08,
+        "neu": 0.815,
+        "pos": 0.105,
+        "compound": 0.9989
+    },
+    "Hot_to_trot_the_up_sides_of_climate_migration": {
+        "neg": 0.087,
+        "neu": 0.801,
+        "pos": 0.111,
+        "compound": 0.9983
+    },
     "How_technology_can_strengthen_democracy_an_interview_with_Audrey_Tang": {
         "neg": 0.051,
         "neu": 0.834,
@@ -1403,11 +2783,41 @@
         "pos": 0.137,
         "compound": 0.9999
     },
+    "I,_of_the_tiger_India’s_influential_diaspora": {
+        "neg": 0.038,
+        "neu": 0.819,
+        "pos": 0.143,
+        "compound": 0.9999
+    },
+    "Ill_news,_spreads_apace_covid_in_China": {
+        "neg": 0.076,
+        "neu": 0.82,
+        "pos": 0.104,
+        "compound": 0.9984
+    },
+    "Independence_fray_Scotland’s_leader_steps_down": {
+        "neg": 0.055,
+        "neu": 0.822,
+        "pos": 0.123,
+        "compound": 0.9999
+    },
+    "Industrial_waste_the_world’s_misguided_manufacturing_policies": {
+        "neg": 0.079,
+        "neu": 0.803,
+        "pos": 0.118,
+        "compound": 0.9993
+    },
     "Introducing_The_Weekend_Intelligence": {
         "neg": 0.023,
         "neu": 0.838,
         "pos": 0.138,
         "compound": 0.9728
+    },
+    "Invaluable_bonds_rising_borrowing_costs": {
+        "neg": 0.06,
+        "neu": 0.791,
+        "pos": 0.149,
+        "compound": 0.9999
     },
     "In_a_tailspin_what_will_it_take_to_turn_Boeing_around": {
         "neg": 0.061,
@@ -1415,11 +2825,53 @@
         "pos": 0.117,
         "compound": 0.9999
     },
+    "In_from_the_cold_Assad’s_diplomatic_redemption": {
+        "neg": 0.087,
+        "neu": 0.785,
+        "pos": 0.128,
+        "compound": 0.9995
+    },
+    "In_passing_the_notable_lives_lost_in_2022": {
+        "neg": 0.082,
+        "neu": 0.788,
+        "pos": 0.131,
+        "compound": 0.9998
+    },
+    "In_the_big_leagues_now_Saudi_Arabia’s_push_into_sport": {
+        "neg": 0.071,
+        "neu": 0.806,
+        "pos": 0.122,
+        "compound": 0.9997
+    },
+    "Iraq,_a_hard_place_20_years_after_the_invasion": {
+        "neg": 0.047,
+        "neu": 0.83,
+        "pos": 0.123,
+        "compound": 0.9999
+    },
+    "Israel_reels_a_bloody_assault": {
+        "neg": 0.136,
+        "neu": 0.763,
+        "pos": 0.101,
+        "compound": -0.9994
+    },
+    "I_spy_meeting_Ukraine’s_intelligence_chief": {
+        "neg": 0.093,
+        "neu": 0.814,
+        "pos": 0.093,
+        "compound": -0.9427
+    },
     "Joe_of_good_faith_Biden_bows_out": {
         "neg": 0.054,
         "neu": 0.805,
         "pos": 0.141,
         "compound": 0.9999
+    },
+    "Juan_way,_or_another_Argentina’s_election": {
+        "neg": 0.048,
+        "neu": 0.829,
+        "pos": 0.123,
+        "compound": 0.9998
     },
     "KamaChameleon_What_does_Harris_stand_for": {
         "neg": 0.042,
@@ -1439,6 +2891,12 @@
         "pos": 0.134,
         "compound": 0.9998
     },
+    "Khartoum_is_burning_fighting_continues_in_Sudan": {
+        "neg": 0.081,
+        "neu": 0.817,
+        "pos": 0.102,
+        "compound": 0.9979
+    },
     "Labour's_pains_Britain’s_growth_problem": {
         "neg": 0.069,
         "neu": 0.796,
@@ -1451,11 +2909,23 @@
         "pos": 0.153,
         "compound": 0.9999
     },
+    "Land,_sea_and_air_let_us_move_you": {
+        "neg": 0.074,
+        "neu": 0.84,
+        "pos": 0.086,
+        "compound": 0.9933
+    },
     "Landing_padded_the_global-recession_risk": {
         "neg": 0.065,
         "neu": 0.806,
         "pos": 0.13,
         "compound": 0.9999
+    },
+    "Latin_lessons_two_contrasting_elections": {
+        "neg": 0.074,
+        "neu": 0.798,
+        "pos": 0.129,
+        "compound": 0.9996
     },
     "La_la_land_how_spicy_food_set_China_on_fire": {
         "neg": 0.055,
@@ -1468,6 +2938,42 @@
         "neu": 0.783,
         "pos": 0.152,
         "compound": 0.9999
+    },
+    "League_of_her_own_Sheikh_Hasina’s_grip_on_Bangladesh": {
+        "neg": 0.056,
+        "neu": 0.807,
+        "pos": 0.137,
+        "compound": 0.9999
+    },
+    "Let’s_remake_a_deal_Brexit_and_Northern_Ireland_(again)": {
+        "neg": 0.085,
+        "neu": 0.8,
+        "pos": 0.116,
+        "compound": 0.9992
+    },
+    "Like_biding_a_Reich_Germany’s_alleged_coup_plot": {
+        "neg": 0.108,
+        "neu": 0.801,
+        "pos": 0.091,
+        "compound": -0.9986
+    },
+    "Long_division_America’s_busy_state_legislatures": {
+        "neg": 0.065,
+        "neu": 0.829,
+        "pos": 0.106,
+        "compound": 0.9995
+    },
+    "Long_shots_the_complex_nature_of_civil_wars": {
+        "neg": 0.102,
+        "neu": 0.768,
+        "pos": 0.13,
+        "compound": 0.9984
+    },
+    "Losing_the_threads_Bangladesh": {
+        "neg": 0.069,
+        "neu": 0.799,
+        "pos": 0.132,
+        "compound": 0.9998
     },
     "Lost_in_stagnation_Japan’s_economic_paradox": {
         "neg": 0.059,
@@ -1493,11 +2999,47 @@
         "pos": 0.139,
         "compound": 1.0
     },
+    "Make_ore_break_Latin_America’s_commodities": {
+        "neg": 0.038,
+        "neu": 0.825,
+        "pos": 0.136,
+        "compound": 0.9999
+    },
+    "Make_the_world’s_money_go_‘round_a_bunged-up_IMF": {
+        "neg": 0.129,
+        "neu": 0.785,
+        "pos": 0.086,
+        "compound": -0.9996
+    },
     "Mario_druthers_Draghi’s_plan_for_Europe": {
         "neg": 0.07,
         "neu": 0.796,
         "pos": 0.135,
         "compound": 0.9998
+    },
+    "Marshalling_resources_rebuilding_Ukraine": {
+        "neg": 0.081,
+        "neu": 0.828,
+        "pos": 0.091,
+        "compound": 0.9853
+    },
+    "Mass_destruction_Israel_prepares_for_a_ground_invasion": {
+        "neg": 0.1,
+        "neu": 0.8,
+        "pos": 0.101,
+        "compound": -0.9725
+    },
+    "Mass_destruction_is_the_Ethiopian_government_covering_up_war_crimes": {
+        "neg": 0.103,
+        "neu": 0.78,
+        "pos": 0.117,
+        "compound": 0.9866
+    },
+    "Midnight_train_to_Moscow_Kim_Jong_Un_cosies_up_with_Russia": {
+        "neg": 0.095,
+        "neu": 0.8,
+        "pos": 0.104,
+        "compound": 0.5929
     },
     "Migration_stations_the_changing_politics_of_the_border": {
         "neg": 0.058,
@@ -1511,17 +3053,41 @@
         "pos": 0.126,
         "compound": 0.9996
     },
+    "Missing_in_action_China’s_defence_minister_has_disappeared": {
+        "neg": 0.076,
+        "neu": 0.832,
+        "pos": 0.092,
+        "compound": 0.9946
+    },
     "Model_behaviour_forecasting_America’s_election": {
         "neg": 0.05,
         "neu": 0.822,
         "pos": 0.128,
         "compound": 1.0
     },
+    "Model_growth_Tesla’s_ambitious_plans": {
+        "neg": 0.093,
+        "neu": 0.812,
+        "pos": 0.095,
+        "compound": -0.9256
+    },
     "Modi’s_mess_a_shock_election_result_spells_uncertainty_for_India": {
         "neg": 0.055,
         "neu": 0.812,
         "pos": 0.134,
         "compound": 0.9998
+    },
+    "Money_Talks_Adani’s_short_story": {
+        "neg": 0.054,
+        "neu": 0.803,
+        "pos": 0.143,
+        "compound": 1.0
+    },
+    "Money_Talks_Another_way,_another_dollar": {
+        "neg": 0.049,
+        "neu": 0.834,
+        "pos": 0.117,
+        "compound": 0.9999
     },
     "Money_Talks_An_interview_with_Joseph_Stiglitz": {
         "neg": 0.053,
@@ -1533,6 +3099,18 @@
         "neg": 0.066,
         "neu": 0.805,
         "pos": 0.129,
+        "compound": 0.9999
+    },
+    "Money_Talks_Averting_the_city_death_spiral": {
+        "neg": 0.047,
+        "neu": 0.828,
+        "pos": 0.125,
+        "compound": 1.0
+    },
+    "Money_Talks_A_business_podcast_on_the_business_of_podcasts": {
+        "neg": 0.028,
+        "neu": 0.858,
+        "pos": 0.114,
         "compound": 0.9999
     },
     "Money_Talks_A_shot_in_the_arms": {
@@ -1547,6 +3125,12 @@
         "pos": 0.14,
         "compound": 1.0
     },
+    "Money_Talks_Can_Disney_rekindle_the_magic": {
+        "neg": 0.058,
+        "neu": 0.803,
+        "pos": 0.139,
+        "compound": 1.0
+    },
     "Money_Talks_Can_the_American_bull_market_keep_roaring": {
         "neg": 0.041,
         "neu": 0.795,
@@ -1559,16 +3143,70 @@
         "pos": 0.134,
         "compound": 1.0
     },
+    "Money_Talks_China_reopens": {
+        "neg": 0.062,
+        "neu": 0.822,
+        "pos": 0.116,
+        "compound": 0.9999
+    },
+    "Money_Talks_China’s_property_crisis": {
+        "neg": 0.074,
+        "neu": 0.813,
+        "pos": 0.112,
+        "compound": 0.9999
+    },
+    "Money_Talks_Click_and_collect_a_grocery_victory": {
+        "neg": 0.052,
+        "neu": 0.815,
+        "pos": 0.133,
+        "compound": 0.9999
+    },
+    "Money_Talks_Could_K-pop_become_a_monopoly": {
+        "neg": 0.032,
+        "neu": 0.8,
+        "pos": 0.168,
+        "compound": 1.0
+    },
+    "Money_Talks_Counting_the_cost_of_education": {
+        "neg": 0.054,
+        "neu": 0.81,
+        "pos": 0.136,
+        "compound": 1.0
+    },
+    "Money_Talks_Discredit_Suisse": {
+        "neg": 0.125,
+        "neu": 0.766,
+        "pos": 0.109,
+        "compound": -0.9996
+    },
     "Money_Talks_Europe’s_luxury_crown": {
         "neg": 0.028,
         "neu": 0.833,
         "pos": 0.139,
         "compound": 1.0
     },
+    "Money_Talks_Goldin_rules": {
+        "neg": 0.034,
+        "neu": 0.829,
+        "pos": 0.137,
+        "compound": 1.0
+    },
+    "Money_Talks_Goldman_Sags": {
+        "neg": 0.055,
+        "neu": 0.818,
+        "pos": 0.127,
+        "compound": 0.9999
+    },
     "Money_Talks_Higher_for_longer": {
         "neg": 0.051,
         "neu": 0.821,
         "pos": 0.128,
+        "compound": 1.0
+    },
+    "Money_Talks_How_globalisation_gave_way": {
+        "neg": 0.054,
+        "neu": 0.816,
+        "pos": 0.129,
         "compound": 1.0
     },
     "Money_Talks_How_much_trouble_is_China’s_economy_in": {
@@ -1583,17 +3221,77 @@
         "pos": 0.121,
         "compound": 0.9999
     },
+    "Money_Talks_How_to_build_a_sports_business": {
+        "neg": 0.032,
+        "neu": 0.787,
+        "pos": 0.181,
+        "compound": 1.0
+    },
+    "Money_Talks_Information_used_to_want_to_be_free": {
+        "neg": 0.036,
+        "neu": 0.827,
+        "pos": 0.137,
+        "compound": 1.0
+    },
+    "Money_Talks_Is_America_becoming_uninsurable": {
+        "neg": 0.093,
+        "neu": 0.806,
+        "pos": 0.101,
+        "compound": 0.9937
+    },
+    "Money_Talks_Is_America’s_China_policy_working": {
+        "neg": 0.06,
+        "neu": 0.821,
+        "pos": 0.12,
+        "compound": 0.9999
+    },
+    "Money_Talks_Is_Christmas_becoming_more_efficient": {
+        "neg": 0.057,
+        "neu": 0.768,
+        "pos": 0.175,
+        "compound": 1.0
+    },
     "Money_Talks_Is_Japan_saying_sayonara_to_stagnation": {
         "neg": 0.061,
         "neu": 0.804,
         "pos": 0.136,
         "compound": 0.9999
     },
+    "Money_Talks_Is_the_car_industry_running_out_of_gas": {
+        "neg": 0.029,
+        "neu": 0.858,
+        "pos": 0.113,
+        "compound": 1.0
+    },
     "Money_Talks_Is_the_West_losing_its_sanctions_war": {
         "neg": 0.09,
         "neu": 0.803,
         "pos": 0.106,
         "compound": 0.9984
+    },
+    "Money_Talks_Last_dance_for_TikTok": {
+        "neg": 0.082,
+        "neu": 0.807,
+        "pos": 0.11,
+        "compound": 0.9996
+    },
+    "Money_Talks_Lessons_from_the_great_macro_experiment": {
+        "neg": 0.069,
+        "neu": 0.814,
+        "pos": 0.117,
+        "compound": 0.9999
+    },
+    "Money_Talks_Lights!_Camera!_Inaction…": {
+        "neg": 0.059,
+        "neu": 0.808,
+        "pos": 0.133,
+        "compound": 1.0
+    },
+    "Money_Talks_Not_made_in_China": {
+        "neg": 0.051,
+        "neu": 0.824,
+        "pos": 0.125,
+        "compound": 0.9999
     },
     "Money_Talks_Oil’s_sticky_endgame": {
         "neg": 0.041,
@@ -1697,6 +3395,12 @@
         "pos": 0.148,
         "compound": 0.9999
     },
+    "Money_Talks_Succession_Asia": {
+        "neg": 0.05,
+        "neu": 0.828,
+        "pos": 0.123,
+        "compound": 0.9999
+    },
     "Money_Talks_Taylor's_version_(part_one)": {
         "neg": 0.038,
         "neu": 0.789,
@@ -1714,6 +3418,30 @@
         "neu": 0.808,
         "pos": 0.139,
         "compound": 1.0
+    },
+    "Money_Talks_The_A_to_Z_of_economics": {
+        "neg": 0.054,
+        "neu": 0.819,
+        "pos": 0.127,
+        "compound": 1.0
+    },
+    "Money_Talks_The_baby_bust_blues": {
+        "neg": 0.046,
+        "neu": 0.836,
+        "pos": 0.119,
+        "compound": 0.9999
+    },
+    "Money_Talks_The_changing_ideology_of_Silicon_Valley": {
+        "neg": 0.041,
+        "neu": 0.816,
+        "pos": 0.143,
+        "compound": 1.0
+    },
+    "Money_Talks_The_economics_of_thinness": {
+        "neg": 0.068,
+        "neu": 0.801,
+        "pos": 0.131,
+        "compound": 0.9999
     },
     "Money_Talks_The_future_of_crypto,_part_one": {
         "neg": 0.076,
@@ -1733,6 +3461,54 @@
         "pos": 0.121,
         "compound": 0.9999
     },
+    "Money_Talks_The_great_debt_hangover": {
+        "neg": 0.073,
+        "neu": 0.794,
+        "pos": 0.133,
+        "compound": 0.9999
+    },
+    "Money_Talks_The_Jamie_Dimon_interview": {
+        "neg": 0.053,
+        "neu": 0.784,
+        "pos": 0.163,
+        "compound": 1.0
+    },
+    "Money_Talks_The_king_of_quants": {
+        "neg": 0.049,
+        "neu": 0.802,
+        "pos": 0.149,
+        "compound": 1.0
+    },
+    "Money_Talks_The_new_power_in_the_North_Sea": {
+        "neg": 0.02,
+        "neu": 0.866,
+        "pos": 0.114,
+        "compound": 1.0
+    },
+    "Money_Talks_The_price_of_cheaper_medicines": {
+        "neg": 0.054,
+        "neu": 0.827,
+        "pos": 0.119,
+        "compound": 0.9999
+    },
+    "Money_Talks_The_rise_of_the_robots": {
+        "neg": 0.036,
+        "neu": 0.826,
+        "pos": 0.138,
+        "compound": 1.0
+    },
+    "Money_Talks_The_trillion-dollar_question": {
+        "neg": 0.025,
+        "neu": 0.83,
+        "pos": 0.145,
+        "compound": 1.0
+    },
+    "Money_Talks_TikTok’s_ticking_time_bomb—an_episode_from_our_archive": {
+        "neg": 0.056,
+        "neu": 0.821,
+        "pos": 0.124,
+        "compound": 0.9999
+    },
     "Money_Talks_Touring_America’s_industrial_revival": {
         "neg": 0.043,
         "neu": 0.82,
@@ -1744,6 +3520,18 @@
         "neu": 0.828,
         "pos": 0.114,
         "compound": 0.9578
+    },
+    "Money_Talks_What_happens_if_inflation_sticks": {
+        "neg": 0.048,
+        "neu": 0.832,
+        "pos": 0.12,
+        "compound": 1.0
+    },
+    "Money_Talks_What_went_wrong_at_SVB": {
+        "neg": 0.095,
+        "neu": 0.771,
+        "pos": 0.134,
+        "compound": 0.9998
     },
     "Money_Talks_What’s_next_for_behavioural_economics": {
         "neg": 0.058,
@@ -1763,17 +3551,41 @@
         "pos": 0.142,
         "compound": 1.0
     },
+    "Money_Talks_Why_does_everyone_want_to_manage_your_wealth": {
+        "neg": 0.031,
+        "neu": 0.781,
+        "pos": 0.188,
+        "compound": 1.0
+    },
+    "Money_Talks_Why_house_prices_are_so_stubbornly_high": {
+        "neg": 0.064,
+        "neu": 0.814,
+        "pos": 0.122,
+        "compound": 0.9999
+    },
     "Money_Talks_Why_infrastructure_is_all_the_rage_on_Wall_Street": {
         "neg": 0.029,
         "neu": 0.827,
         "pos": 0.144,
         "compound": 1.0
     },
+    "Money_Talks_Why_is_customer_service_getting_worse": {
+        "neg": 0.061,
+        "neu": 0.778,
+        "pos": 0.161,
+        "compound": 0.9999
+    },
     "Money_Talks_Why_more_women_are_upping_tools": {
         "neg": 0.037,
         "neu": 0.817,
         "pos": 0.146,
         "compound": 1.0
+    },
+    "Money_Talks_Why_oh_why_EY": {
+        "neg": 0.052,
+        "neu": 0.815,
+        "pos": 0.133,
+        "compound": 0.9999
     },
     "Money_Talks_Why_weight-loss_drugs_will_reshape_the_world": {
         "neg": 0.06,
@@ -1787,11 +3599,41 @@
         "pos": 0.118,
         "compound": 1.0
     },
+    "Money_Talks_Will_green_flying_take_off": {
+        "neg": 0.034,
+        "neu": 0.827,
+        "pos": 0.138,
+        "compound": 1.0
+    },
+    "Money_Talks_Will_video_games_eat_Hollywood": {
+        "neg": 0.038,
+        "neu": 0.815,
+        "pos": 0.147,
+        "compound": 1.0
+    },
+    "More_Blinken_meetings_a_diplomatic_visit_to_China": {
+        "neg": 0.059,
+        "neu": 0.834,
+        "pos": 0.107,
+        "compound": 0.9996
+    },
+    "More_generals,_less_pacific_Japan’s_new_defence_policy": {
+        "neg": 0.136,
+        "neu": 0.757,
+        "pos": 0.107,
+        "compound": -0.9996
+    },
     "More_than_Sheikh_could_stick_at_Bangladesh’s_PM_resigns": {
         "neg": 0.072,
         "neu": 0.822,
         "pos": 0.106,
         "compound": 0.9991
+    },
+    "Moves_over_American_house_prices": {
+        "neg": 0.056,
+        "neu": 0.828,
+        "pos": 0.116,
+        "compound": 0.9998
     },
     "Music_machines_Could_AI_kill_the_radio_star": {
         "neg": 0.038,
@@ -1799,17 +3641,89 @@
         "pos": 0.155,
         "compound": 1.0
     },
+    "Narcos_and_avocados_Mexico’s_diversifying_drug_cartels": {
+        "neg": 0.066,
+        "neu": 0.797,
+        "pos": 0.137,
+        "compound": 0.9999
+    },
+    "Needs_Musk_Tumult_at_Twitter": {
+        "neg": 0.07,
+        "neu": 0.836,
+        "pos": 0.094,
+        "compound": 0.9989
+    },
+    "Never-ending_storeys_rebuilding_Turkey": {
+        "neg": 0.077,
+        "neu": 0.831,
+        "pos": 0.092,
+        "compound": 0.9903
+    },
     "New_order_The_global_financial_order_is_under_threat": {
         "neg": 0.059,
         "neu": 0.826,
         "pos": 0.115,
         "compound": 0.9999
     },
+    "New_school_Thais_a_military_establishment_voted_out": {
+        "neg": 0.064,
+        "neu": 0.804,
+        "pos": 0.132,
+        "compound": 0.9998
+    },
     "No-brainer_how_better_nutrition_can_make_the_world_smarter": {
         "neg": 0.07,
         "neu": 0.796,
         "pos": 0.134,
         "compound": 0.9999
+    },
+    "Not_born_yesterday_the_world’s_ageing_population": {
+        "neg": 0.062,
+        "neu": 0.771,
+        "pos": 0.168,
+        "compound": 0.9999
+    },
+    "Not_shy_about_retiring_strikes_in_France": {
+        "neg": 0.056,
+        "neu": 0.811,
+        "pos": 0.132,
+        "compound": 0.9998
+    },
+    "Not_shy_and_not_retiring_pension_reform_in_France": {
+        "neg": 0.095,
+        "neu": 0.815,
+        "pos": 0.09,
+        "compound": -0.992
+    },
+    "Not_so_Pacific_the_frightening_prospect_of_war_over_Taiwan": {
+        "neg": 0.128,
+        "neu": 0.771,
+        "pos": 0.101,
+        "compound": -0.9991
+    },
+    "No_end_in_sight_how_Ukraine_is_being_shaped_by_a_long_war": {
+        "neg": 0.13,
+        "neu": 0.769,
+        "pos": 0.101,
+        "compound": -0.9995
+    },
+    "No_guarantees_NATO_members_debate_Ukraine’s_future": {
+        "neg": 0.073,
+        "neu": 0.781,
+        "pos": 0.146,
+        "compound": 0.9998
+    },
+    "No_Khan_do_Pakistan’s_meddling_army": {
+        "neg": 0.109,
+        "neu": 0.774,
+        "pos": 0.117,
+        "compound": 0.9762
+    },
+    "No_rest_for_the_weary_meeting_Ukraine’s_high_command": {
+        "neg": 0.078,
+        "neu": 0.808,
+        "pos": 0.114,
+        "compound": 0.9995
     },
     "No_right_left_Afghanistan’s_oppressed_women": {
         "neg": 0.072,
@@ -1829,11 +3743,29 @@
         "pos": 0.095,
         "compound": 0.99
     },
+    "One_Good_Term_Deserves_Another_Biden_Declares": {
+        "neg": 0.068,
+        "neu": 0.802,
+        "pos": 0.13,
+        "compound": 0.9998
+    },
     "One_peace_at_a_time_Gaza,_Israel_and_Iran": {
         "neg": 0.074,
         "neu": 0.848,
         "pos": 0.079,
         "compound": 0.9565
+    },
+    "One_Tory_building_Rishi_Sunak’s_mission": {
+        "neg": 0.071,
+        "neu": 0.775,
+        "pos": 0.153,
+        "compound": 0.9999
+    },
+    "On_pain_of_death_Uganda’s_anti-LGBT_law": {
+        "neg": 0.085,
+        "neu": 0.813,
+        "pos": 0.102,
+        "compound": 0.997
     },
     "Open_to_debate_Harris_and_Trump_clash": {
         "neg": 0.05,
@@ -1853,6 +3785,12 @@
         "pos": 0.125,
         "compound": 0.9993
     },
+    "Over_the_Finnish_line_NATO_set_to_grow": {
+        "neg": 0.066,
+        "neu": 0.814,
+        "pos": 0.119,
+        "compound": 0.9997
+    },
     "O_Canada_policy_lessons_from_North_America’s_second-largest_economy": {
         "neg": 0.044,
         "neu": 0.825,
@@ -1865,6 +3803,12 @@
         "pos": 0.102,
         "compound": 0.9676
     },
+    "Palace_intrigue_the_Kremlin_after_the_mutiny": {
+        "neg": 0.084,
+        "neu": 0.809,
+        "pos": 0.107,
+        "compound": 0.997
+    },
     "Palaver_in_Paris_will_politics_derail_France’s_commercial_revival": {
         "neg": 0.058,
         "neu": 0.798,
@@ -1876,6 +3820,18 @@
         "neu": 0.783,
         "pos": 0.17,
         "compound": 1.0
+    },
+    "Paranoia_politics_a_Tunisian_lesson_in_demagoguery": {
+        "neg": 0.108,
+        "neu": 0.793,
+        "pos": 0.099,
+        "compound": -0.9973
+    },
+    "Pastor_present_Georgia’s_Senate_runoff": {
+        "neg": 0.08,
+        "neu": 0.765,
+        "pos": 0.155,
+        "compound": 0.9999
     },
     "Past_lives_what_can_ancient_DNA_reveal_about_today’s_world": {
         "neg": 0.026,
@@ -1901,11 +3857,83 @@
         "pos": 0.11,
         "compound": 0.9975
     },
+    "Pole_position_elections_in_Poland": {
+        "neg": 0.053,
+        "neu": 0.8,
+        "pos": 0.146,
+        "compound": 0.9999
+    },
+    "Poll_fishing_Peru’s_persistent_protests": {
+        "neg": 0.085,
+        "neu": 0.755,
+        "pos": 0.16,
+        "compound": 0.9999
+    },
     "Poll_vault_Argentina’s_Peronist_surprise": {
         "neg": 0.117,
         "neu": 0.761,
         "pos": 0.122,
         "compound": -0.9672
+    },
+    "Poor_more_years!_Erdogan_triumphs_in_Turkey": {
+        "neg": 0.072,
+        "neu": 0.793,
+        "pos": 0.135,
+        "compound": 0.9997
+    },
+    "Precious_joules_a_fusion-energy_result": {
+        "neg": 0.062,
+        "neu": 0.805,
+        "pos": 0.132,
+        "compound": 0.9999
+    },
+    "Preparing_for_the_long_war_an_interview_with_President_Zelensky": {
+        "neg": 0.099,
+        "neu": 0.766,
+        "pos": 0.135,
+        "compound": 0.9989
+    },
+    "Pro-life_post-Dobbs_America’s_anti-abortion_campaigns": {
+        "neg": 0.108,
+        "neu": 0.786,
+        "pos": 0.106,
+        "compound": -0.99
+    },
+    "Putin’s_chef_spoils_the_broth_mutiny_in_Russia": {
+        "neg": 0.125,
+        "neu": 0.771,
+        "pos": 0.104,
+        "compound": -0.9991
+    },
+    "Putsched_out_Niger’s_coup_d’état": {
+        "neg": 0.094,
+        "neu": 0.813,
+        "pos": 0.093,
+        "compound": -0.848
+    },
+    "Puts_Bibi_in_the_corner_Israel’s_protests": {
+        "neg": 0.083,
+        "neu": 0.824,
+        "pos": 0.093,
+        "compound": 0.9938
+    },
+    "Race_against_time_rescue_efforts_in_Turkey_and_Syria": {
+        "neg": 0.104,
+        "neu": 0.794,
+        "pos": 0.102,
+        "compound": -0.8899
+    },
+    "Radical_shift_an_interview_with_Argentina’s_presidential_frontrunner": {
+        "neg": 0.071,
+        "neu": 0.818,
+        "pos": 0.112,
+        "compound": 0.9995
+    },
+    "Raise_the_roof_America’s_debt-ceiling_debacle": {
+        "neg": 0.061,
+        "neu": 0.805,
+        "pos": 0.134,
+        "compound": 0.9999
     },
     "Rays_of_hope_the_solar_revolution": {
         "neg": 0.026,
@@ -1913,11 +3941,41 @@
         "pos": 0.119,
         "compound": 1.0
     },
+    "Re-route_of_all_evil_transnational_crime_and_Ukraine’s_war": {
+        "neg": 0.118,
+        "neu": 0.789,
+        "pos": 0.092,
+        "compound": -0.999
+    },
     "Red_bud_revival_why_Xi_is_resurrecting_a_Mao-era_propaganda_tool": {
         "neg": 0.058,
         "neu": 0.786,
         "pos": 0.156,
         "compound": 1.0
+    },
+    "Refresh_your_feed_introducing_Economist_Podcasts+": {
+        "neg": 0.053,
+        "neu": 0.824,
+        "pos": 0.124,
+        "compound": 0.9999
+    },
+    "Revolution_Song_Myanmar’s_unending_war": {
+        "neg": 0.072,
+        "neu": 0.819,
+        "pos": 0.109,
+        "compound": 0.9994
+    },
+    "Riot-geared_the_tensions_behind_France’s_unrest": {
+        "neg": 0.107,
+        "neu": 0.808,
+        "pos": 0.085,
+        "compound": -0.9992
+    },
+    "Rising_Starmer_An_interview_with_Britain’s_opposition_leader": {
+        "neg": 0.088,
+        "neu": 0.814,
+        "pos": 0.098,
+        "compound": 0.987
     },
     "Rocketing_Israel_escalates_Lebanon_conflict": {
         "neg": 0.085,
@@ -1943,6 +4001,12 @@
         "pos": 0.122,
         "compound": 0.9987
     },
+    "Runaway_soldier_American_detained_in_North_Korea": {
+        "neg": 0.071,
+        "neu": 0.816,
+        "pos": 0.113,
+        "compound": 0.9994
+    },
     "Run_part_one_Why_are_Chinese_people_running_to_Japan": {
         "neg": 0.065,
         "neu": 0.77,
@@ -1961,6 +4025,24 @@
         "pos": 0.128,
         "compound": 0.9999
     },
+    "Russian_lessons_new_and_improved_war_tactics": {
+        "neg": 0.096,
+        "neu": 0.757,
+        "pos": 0.147,
+        "compound": 0.9997
+    },
+    "Rutte,_damn_the_Dutch_prime_minister_steps_down": {
+        "neg": 0.063,
+        "neu": 0.832,
+        "pos": 0.105,
+        "compound": 0.9996
+    },
+    "SBF,_FTX,_WTF_Sam_Bankman-Fried_goes_on_trial": {
+        "neg": 0.102,
+        "neu": 0.784,
+        "pos": 0.114,
+        "compound": 0.9879
+    },
     "Screen_time_why_the_world_can’t_get_enough_of_YouTube": {
         "neg": 0.024,
         "neu": 0.854,
@@ -1972,6 +4054,24 @@
         "neu": 0.81,
         "pos": 0.138,
         "compound": 1.0
+    },
+    "Second_thoughts_Donald_Trump’s_policy_plans": {
+        "neg": 0.057,
+        "neu": 0.822,
+        "pos": 0.12,
+        "compound": 0.9998
+    },
+    "Second_time_as_farce_Peru’s_president_falls": {
+        "neg": 0.095,
+        "neu": 0.793,
+        "pos": 0.112,
+        "compound": 0.9925
+    },
+    "Seed_of_doubt_venture_capital_tightens_up": {
+        "neg": 0.056,
+        "neu": 0.791,
+        "pos": 0.154,
+        "compound": 0.9999
     },
     "See_how_the_Lai_lands_Taiwan’s_new_president": {
         "neg": 0.078,
@@ -1985,11 +4085,29 @@
         "pos": 0.141,
         "compound": 1.0
     },
+    "Shell_shocked_Israel_fights_back": {
+        "neg": 0.093,
+        "neu": 0.829,
+        "pos": 0.078,
+        "compound": -0.9981
+    },
+    "Shining_armour_China’s_new_fleet": {
+        "neg": 0.084,
+        "neu": 0.809,
+        "pos": 0.107,
+        "compound": 0.9973
+    },
     "Short-sighted_China’s_struggle_with_myopia": {
         "neg": 0.061,
         "neu": 0.801,
         "pos": 0.138,
         "compound": 1.0
+    },
+    "Show_and_sell_Amazon_v_Hollywood": {
+        "neg": 0.03,
+        "neu": 0.848,
+        "pos": 0.123,
+        "compound": 0.9999
     },
     "Shun_while_it_lasted_never-Trumpers’_fading_sway": {
         "neg": 0.062,
@@ -2003,11 +4121,41 @@
         "pos": 0.116,
         "compound": 1.0
     },
+    "Silva’s_mettle_Brazil’s_newish_president": {
+        "neg": 0.1,
+        "neu": 0.789,
+        "pos": 0.112,
+        "compound": 0.984
+    },
+    "Situation_reporter_Evan_Gershkovich’s_detention": {
+        "neg": 0.122,
+        "neu": 0.751,
+        "pos": 0.128,
+        "compound": -0.3836
+    },
+    "Small-Vox_symptoms_Spain’s_elections": {
+        "neg": 0.089,
+        "neu": 0.783,
+        "pos": 0.128,
+        "compound": 0.9995
+    },
     "Sound_idea_the_revival_of_acoustic_detection_in_warfare": {
         "neg": 0.067,
         "neu": 0.838,
         "pos": 0.095,
         "compound": 0.9993
+    },
+    "So_the_Tory_goes_Britain’s_Conservatives_meet": {
+        "neg": 0.064,
+        "neu": 0.789,
+        "pos": 0.147,
+        "compound": 0.9999
+    },
+    "Space_invaded_video_games’_stunning_growth": {
+        "neg": 0.064,
+        "neu": 0.805,
+        "pos": 0.131,
+        "compound": 0.9999
     },
     "SpookGPT_spycraft_in_the_digital_age": {
         "neg": 0.042,
@@ -2021,11 +4169,23 @@
         "pos": 0.143,
         "compound": 0.9999
     },
+    "Squash_court_Israel’s_controversial_law_reform": {
+        "neg": 0.051,
+        "neu": 0.831,
+        "pos": 0.117,
+        "compound": 0.9997
+    },
     "Standing_up_to_China_the_Philippines_in_the_South_China_Sea": {
         "neg": 0.068,
         "neu": 0.832,
         "pos": 0.1,
         "compound": 0.9997
+    },
+    "Starched_rival_Turkey’s_opposition_candidate": {
+        "neg": 0.047,
+        "neu": 0.795,
+        "pos": 0.159,
+        "compound": 0.9999
     },
     "Starming_victory_Labour_sweeps_to_power": {
         "neg": 0.054,
@@ -2033,11 +4193,35 @@
         "pos": 0.146,
         "compound": 0.9999
     },
+    "States,_disunited_the_controversy_around_cluster_bombs": {
+        "neg": 0.101,
+        "neu": 0.778,
+        "pos": 0.121,
+        "compound": 0.9985
+    },
+    "Still_the_one_that_I_want_Greece’s_prime_minister_wins_again": {
+        "neg": 0.085,
+        "neu": 0.777,
+        "pos": 0.138,
+        "compound": 0.9997
+    },
+    "Stopping_the_spread_how_to_fix_the_banks": {
+        "neg": 0.12,
+        "neu": 0.779,
+        "pos": 0.101,
+        "compound": -0.9986
+    },
     "Stores_of_value_regulators_lean_on_app_vendors": {
         "neg": 0.046,
         "neu": 0.833,
         "pos": 0.122,
         "compound": 0.9997
+    },
+    "Strong_arms_North_Korea’s_pandemic_era_weapons_program": {
+        "neg": 0.065,
+        "neu": 0.83,
+        "pos": 0.104,
+        "compound": 0.9992
     },
     "Struck_out_A_Hamas_leader_is_assassinated": {
         "neg": 0.127,
@@ -2051,11 +4235,29 @@
         "pos": 0.116,
         "compound": 0.9995
     },
+    "Suck_in_the_middle_the_hole_in_America’s_consumer_base": {
+        "neg": 0.048,
+        "neu": 0.834,
+        "pos": 0.118,
+        "compound": 0.9998
+    },
     "Sudan_impact_the_war_the_world_forgot": {
         "neg": 0.086,
         "neu": 0.8,
         "pos": 0.115,
         "compound": 0.9992
+    },
+    "Support_systems_allies_debate_Ukraine’s_tactics": {
+        "neg": 0.083,
+        "neu": 0.794,
+        "pos": 0.123,
+        "compound": 0.9995
+    },
+    "Suspension_of_this_belief_Iran’s_morality_police": {
+        "neg": 0.083,
+        "neu": 0.818,
+        "pos": 0.098,
+        "compound": 0.9976
     },
     "Swat_off_the_press_Meta_v_Canada’s_news_ploy": {
         "neg": 0.055,
@@ -2063,11 +4265,47 @@
         "pos": 0.105,
         "compound": 0.9997
     },
+    "Taken_too_soon_why_so_many_Americans_die_young": {
+        "neg": 0.089,
+        "neu": 0.818,
+        "pos": 0.093,
+        "compound": -0.861
+    },
+    "Tanks,_a_lot_arming_Ukraine": {
+        "neg": 0.101,
+        "neu": 0.795,
+        "pos": 0.104,
+        "compound": -0.5258
+    },
+    "Tanks-giving_parade_Arming_Ukraine": {
+        "neg": 0.093,
+        "neu": 0.793,
+        "pos": 0.113,
+        "compound": 0.9965
+    },
     "Tense_exchange_Russia’s_prisoner_swap": {
         "neg": 0.083,
         "neu": 0.794,
         "pos": 0.123,
         "compound": 0.9995
+    },
+    "Teutonic_plague_is_Germany_the_sick_man_of_Europe": {
+        "neg": 0.065,
+        "neu": 0.822,
+        "pos": 0.112,
+        "compound": 0.9996
+    },
+    "They_need_to_talk_about_Kevin_America’s_near-shutdown": {
+        "neg": 0.114,
+        "neu": 0.805,
+        "pos": 0.08,
+        "compound": -0.9994
+    },
+    "The_air_of_their_ways_South_Asia’s_crippling_pollution": {
+        "neg": 0.064,
+        "neu": 0.816,
+        "pos": 0.12,
+        "compound": 0.9997
     },
     "The_arc_of_war_a_bloody_week_in_Lebanon": {
         "neg": 0.074,
@@ -2080,6 +4318,12 @@
         "neu": 0.83,
         "pos": 0.146,
         "compound": 1.0
+    },
+    "The_belt_buckles_up_China’s_grand_plan_slims": {
+        "neg": 0.065,
+        "neu": 0.811,
+        "pos": 0.124,
+        "compound": 0.9998
     },
     "The_big_gag_Hong_Kong’s_crackdown_on_freedom": {
         "neg": 0.041,
@@ -2105,11 +4349,35 @@
         "pos": 0.128,
         "compound": 0.9996
     },
+    "The_dragon_chasing_China_and_a_new_nuclear_order": {
+        "neg": 0.103,
+        "neu": 0.759,
+        "pos": 0.138,
+        "compound": 0.9994
+    },
+    "The_Economist_Kissinger_on_avoiding_world_war": {
+        "neg": 0.108,
+        "neu": 0.769,
+        "pos": 0.123,
+        "compound": 0.9981
+    },
+    "The_French_disconnection_a_retreat_from_Niger": {
+        "neg": 0.096,
+        "neu": 0.808,
+        "pos": 0.096,
+        "compound": -0.8925
+    },
     "The_grey_zone_How_China_is_closing_in_on_Taiwan": {
         "neg": 0.06,
         "neu": 0.815,
         "pos": 0.125,
         "compound": 0.9999
+    },
+    "The_Gulf_narrows_Iran-Saudi_relations": {
+        "neg": 0.075,
+        "neu": 0.785,
+        "pos": 0.14,
+        "compound": 0.9998
     },
     "The_human_strain_can_mpox_be_contained": {
         "neg": 0.082,
@@ -3053,6 +5321,12 @@
         "pos": 0.108,
         "compound": 0.9888
     },
+    "The_prices_fight_conflicting_views_on_inflation": {
+        "neg": 0.05,
+        "neu": 0.823,
+        "pos": 0.128,
+        "compound": 0.9999
+    },
     "The_sound_of_fury_pressure_builds_within_Israel": {
         "neg": 0.079,
         "neu": 0.828,
@@ -3359,6 +5633,90 @@
         "pos": 0.114,
         "compound": 0.9994
     },
+    "The_World_Ahead_2023_Bigger_elephant,_leaner_dragon": {
+        "neg": 0.028,
+        "neu": 0.852,
+        "pos": 0.12,
+        "compound": 0.9999
+    },
+    "The_World_Ahead_2023_China's_challenges": {
+        "neg": 0.082,
+        "neu": 0.807,
+        "pos": 0.111,
+        "compound": 0.9991
+    },
+    "The_World_Ahead_2023_Fuelling_the_future": {
+        "neg": 0.059,
+        "neu": 0.805,
+        "pos": 0.136,
+        "compound": 0.9999
+    },
+    "The_World_Ahead_2023_The_art_of_forecasting": {
+        "neg": 0.049,
+        "neu": 0.849,
+        "pos": 0.102,
+        "compound": 0.9998
+    },
+    "The_World_Ahead_2023_The_coming_recession": {
+        "neg": 0.086,
+        "neu": 0.786,
+        "pos": 0.129,
+        "compound": 0.9994
+    },
+    "The_World_Ahead_2023_Understand_this": {
+        "neg": 0.051,
+        "neu": 0.793,
+        "pos": 0.156,
+        "compound": 0.9999
+    },
+    "The_World_Ahead_2023_Watch_the_mega-states": {
+        "neg": 0.046,
+        "neu": 0.835,
+        "pos": 0.118,
+        "compound": 0.9999
+    },
+    "Through_the_fire_an_update_from_Hawaii": {
+        "neg": 0.078,
+        "neu": 0.823,
+        "pos": 0.099,
+        "compound": 0.9974
+    },
+    "Tick,_Tick,_Boom_SpaceX_launches_Starship": {
+        "neg": 0.075,
+        "neu": 0.805,
+        "pos": 0.12,
+        "compound": 0.9996
+    },
+    "Time’s_up_America_debates_TikTok’s_future": {
+        "neg": 0.092,
+        "neu": 0.782,
+        "pos": 0.125,
+        "compound": 0.9992
+    },
+    "Toil_and_rubble_a_report_from_Turkey": {
+        "neg": 0.089,
+        "neu": 0.789,
+        "pos": 0.123,
+        "compound": 0.9994
+    },
+    "Tony_isn’t_blinkin’_Sino-American_relations,_post-balloon": {
+        "neg": 0.075,
+        "neu": 0.819,
+        "pos": 0.106,
+        "compound": 0.9988
+    },
+    "Too_big_tech_is_Alphabet_approaching_a_growth_ceiling": {
+        "neg": 0.042,
+        "neu": 0.812,
+        "pos": 0.146,
+        "compound": 0.9999
+    },
+    "Trading_criminality_for_autocracy_El_Salvador": {
+        "neg": 0.111,
+        "neu": 0.798,
+        "pos": 0.091,
+        "compound": -0.9988
+    },
     "Trailer_Boom!": {
         "neg": 0.068,
         "neu": 0.85,
@@ -3370,6 +5728,72 @@
         "neu": 0.863,
         "pos": 0.086,
         "compound": 0.9724
+    },
+    "Troubled_shares,_troubles_shared_Adani_and_India_Inc": {
+        "neg": 0.064,
+        "neu": 0.806,
+        "pos": 0.13,
+        "compound": 0.9998
+    },
+    "Trouble_in_Shangri-La_Sino-American_tensions_escalate": {
+        "neg": 0.108,
+        "neu": 0.772,
+        "pos": 0.12,
+        "compound": 0.9756
+    },
+    "Trump_card_marked_the_January_6th_investigation": {
+        "neg": 0.086,
+        "neu": 0.788,
+        "pos": 0.127,
+        "compound": 0.9997
+    },
+    "Trust_the_processor_America’s_CHIPS_Act_one_year_on": {
+        "neg": 0.042,
+        "neu": 0.847,
+        "pos": 0.112,
+        "compound": 0.9998
+    },
+    "Tunnel,_no_lights_South_Africa’s_crumbling_infrastructure": {
+        "neg": 0.071,
+        "neu": 0.835,
+        "pos": 0.094,
+        "compound": 0.9958
+    },
+    "Turkey_stuffed_A_democracy’s_last_stand": {
+        "neg": 0.062,
+        "neu": 0.818,
+        "pos": 0.121,
+        "compound": 0.9997
+    },
+    "Ukraine_2.0_a_revealing_visit_to_Kyiv": {
+        "neg": 0.083,
+        "neu": 0.799,
+        "pos": 0.119,
+        "compound": 0.9995
+    },
+    "Under_the_missile_flow_North_Korea": {
+        "neg": 0.093,
+        "neu": 0.814,
+        "pos": 0.094,
+        "compound": -0.9347
+    },
+    "Unquiet_on_the_eastern_front_fighting_in_the_Donbas": {
+        "neg": 0.097,
+        "neu": 0.801,
+        "pos": 0.102,
+        "compound": -0.4811
+    },
+    "Unveiled_threats_Iran's_patient_protesters": {
+        "neg": 0.108,
+        "neu": 0.79,
+        "pos": 0.102,
+        "compound": -0.9906
+    },
+    "Upping_arms_the_new_three-way_nuclear_race": {
+        "neg": 0.104,
+        "neu": 0.774,
+        "pos": 0.122,
+        "compound": 0.9959
     },
     "Veepstakes_picking_a_running-mate": {
         "neg": 0.055,
@@ -3395,6 +5819,12 @@
         "pos": 0.15,
         "compound": 0.9999
     },
+    "Vote_with_no_confidence_Zimbabwe_goes_to_the_polls": {
+        "neg": 0.109,
+        "neu": 0.79,
+        "pos": 0.1,
+        "compound": -0.994
+    },
     "Walz_onto_the_stage_Kamala_Harris’s_VP_pick": {
         "neg": 0.089,
         "neu": 0.791,
@@ -3419,11 +5849,65 @@
         "pos": 0.199,
         "compound": 1.0
     },
+    "West-siding_story_Turkey’s_tactical_shift": {
+        "neg": 0.053,
+        "neu": 0.8,
+        "pos": 0.147,
+        "compound": 0.9999
+    },
+    "We_need_to_balk_about_Kevin_Congress_opens_in_chaos": {
+        "neg": 0.087,
+        "neu": 0.812,
+        "pos": 0.102,
+        "compound": 0.9942
+    },
+    "What_did_the_president_stow_and_when_did_he_stow_it_Biden‘s_mess": {
+        "neg": 0.083,
+        "neu": 0.817,
+        "pos": 0.1,
+        "compound": 0.9956
+    },
+    "What_he_wants,_what_Xi_wants_Macron_in_China": {
+        "neg": 0.071,
+        "neu": 0.827,
+        "pos": 0.102,
+        "compound": 0.9991
+    },
+    "What_it_is_in_aid_of_Syria’s_earthquake_response": {
+        "neg": 0.079,
+        "neu": 0.807,
+        "pos": 0.114,
+        "compound": 0.9993
+    },
+    "When_politics_dictates_policy_China’s_faltering_economy": {
+        "neg": 0.078,
+        "neu": 0.805,
+        "pos": 0.117,
+        "compound": 0.9995
+    },
+    "Windows_of_opportunity_Microsoft’s_AI_push": {
+        "neg": 0.059,
+        "neu": 0.774,
+        "pos": 0.167,
+        "compound": 0.9999
+    },
     "Winning_formula_Amandine_Aftalion_on_the_mathematics_of_Olympic_success": {
         "neg": 0.025,
         "neu": 0.836,
         "pos": 0.139,
         "compound": 1.0
+    },
+    "Without_reserves_Bolivia_faces_an_economic_crisis": {
+        "neg": 0.063,
+        "neu": 0.785,
+        "pos": 0.151,
+        "compound": 0.9999
+    },
+    "With_a_grain_assault_a_deal_abandoned": {
+        "neg": 0.101,
+        "neu": 0.769,
+        "pos": 0.13,
+        "compound": 0.999
     },
     "Woke_croaks_“peak_woke”_has_passed": {
         "neg": 0.062,
@@ -3449,6 +5933,18 @@
         "pos": 0.126,
         "compound": 0.9998
     },
+    "Zero-sum_the_imperilled_global_economic_order": {
+        "neg": 0.09,
+        "neu": 0.796,
+        "pos": 0.114,
+        "compound": 0.9986
+    },
+    "Zero_to_sickly_China’s_covid_climbdown": {
+        "neg": 0.091,
+        "neu": 0.808,
+        "pos": 0.101,
+        "compound": 0.9963
+    },
     "​​Swing_voters_will_suburbia_decide_the_US_election": {
         "neg": 0.048,
         "neu": 0.82,
@@ -3460,5 +5956,11 @@
         "neu": 0.839,
         "pos": 0.136,
         "compound": 1.0
+    },
+    "“Witch_hunt”,_Part_Four_Trump_indicted,_again": {
+        "neg": 0.081,
+        "neu": 0.809,
+        "pos": 0.11,
+        "compound": 0.9985
     }
 }
