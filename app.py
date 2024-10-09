@@ -29,7 +29,7 @@ def search():
 
 @app.route('/speaker', methods=['POST'])
 def speaker():
-    speaker_name = request.form.get('speaker_name', '').strip()
+    speaker_name = request.form.get('speaker_name', ' (sorted by airtime)').strip()
     if speaker_name:
         recommended_episodes = recommendations.recommend_by_speaker(episodes, speakers, speaker_name)
         return render_template(
