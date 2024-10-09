@@ -1,65 +1,44 @@
-/* Updated static/style.css */
+/* static/style.css */
 
-/* Global Styles */
 body {
-    font-family: "EconomistSerifOsF", "Arial", sans-serif;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: var(--ds-color-los-angeles-95);
 }
 
-/* Layout Containers */
 header, main, footer {
     padding: 20px;
-    max-width: 1200px;
-    margin: auto;
 }
 
-/* Header */
 header {
-    background-color: var(--ds-color-london-20);
-    color: var(--ds-color-london-100);
+    background-color: #333;
+    color: #fff;
 }
 
 header h1 a {
-    color: var(--ds-color-london-100);
+    color: #fff;
     text-decoration: none;
 }
 
-/* Typography */
 h2, h3 {
-    color: var(--ds-color-london-5);
-    font-family: "EconomistSansLF", "Arial", sans-serif;
+    color: #333;
 }
 
-/* Sections */
 section {
     margin-bottom: 20px;
 }
 
-/* Forms */
 form input[type="text"] {
     width: 300px;
     padding: 5px;
-    font-family: "EconomistSansLF", "Arial", sans-serif;
 }
 
 form button, a button {
     padding: 5px 10px;
     cursor: pointer;
-    background-color: var(--ds-color-chicago-45);
-    color: var(--ds-color-london-100);
-    border: none;
-    border-radius: 3px;
 }
 
-form button:hover, a button:hover {
-    background-color: var(--ds-color-chicago-30);
-}
-
-/* Footer */
 footer {
-    background-color: var(--ds-color-london-20);
-    color: var(--ds-color-london-100);
+    background-color: #f1f1f1;
     text-align: center;
 }
