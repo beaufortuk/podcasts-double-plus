@@ -1,44 +1,133 @@
-/* static/style.css */
+/* Updated static/style.css */
 
+/* Global Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: "EconomistSerifOsF", "Arial", sans-serif;
+    background-color: var(--ds-color-los-angeles-95);
     margin: 0;
     padding: 0;
+    line-height: var(--ds-type-leading-lower);
 }
 
-header, main, footer {
-    padding: 20px;
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "EconomistSansLF", "Arial", sans-serif;
+    color: var(--ds-color-london-5);
+    line-height: var(--ds-type-leading-upper);
 }
 
-header {
-    background-color: #333;
-    color: #fff;
-}
-
-header h1 a {
-    color: #fff;
-    text-decoration: none;
+h1 {
+    font-size: var(--ds-type-scale-4);
 }
 
 h2, h3 {
-    color: #333;
+    font-size: var(--ds-type-scale-3);
 }
 
+/* Layout Containers */
+header, main, footer {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Header */
+header {
+    background-color: var(--ds-color-london-20);
+    color: var(--ds-color-london-100);
+}
+
+header h1 a {
+    color: var(--ds-color-london-100);
+    text-decoration: none;
+}
+
+header nav {
+    margin-top: 10px;
+}
+
+header nav a {
+    color: var(--ds-color-london-100);
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+header nav a:hover {
+    color: var(--ds-color-economist-red);
+}
+
+/* Sections */
 section {
     margin-bottom: 20px;
+    padding: 20px;
+    background-color: var(--ds-color-london-95);
+    border-radius: 8px;
 }
 
-form input[type="text"] {
-    width: 300px;
-    padding: 5px;
-}
-
-form button, a button {
-    padding: 5px 10px;
+/* Buttons */
+button, .button {
+    background-color: var(--ds-color-chicago-45);
+    color: var(--ds-color-london-100);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
     cursor: pointer;
+    font-family: "EconomistSansLF", "Arial", sans-serif;
 }
 
+button:hover, .button:hover {
+    background-color: var(--ds-color-chicago-30);
+}
+
+button:focus, .button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px var(--ds-color-hong-kong-55);
+}
+
+/* Footer */
 footer {
-    background-color: #f1f1f1;
+    background-color: var(--ds-color-london-20);
+    color: var(--ds-color-london-100);
     text-align: center;
+    padding: 20px 0;
+}
+
+/* Forms */
+form input[type="text"], form input[type="email"], form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--ds-color-london-85);
+    border-radius: 5px;
+    font-family: "EconomistSansLF", "Arial", sans-serif;
+}
+
+form input[type="text"]:focus, form input[type="email"]:focus, form textarea:focus {
+    border-color: var(--ds-color-london-5);
+    outline: none;
+    box-shadow: 0 0 0 3px var(--ds-color-hong-kong-55);
+}
+
+form button {
+    background-color: var(--ds-color-chicago-45);
+    color: var(--ds-color-london-100);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "EconomistSansLF", "Arial", sans-serif;
+}
+
+form button:hover {
+    background-color: var(--ds-color-chicago-30);
+}
+
+/* Links */
+a {
+    color: var(--ds-color-chicago-45);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--ds-color-chicago-30);
+    border-bottom: 1px solid var(--ds-color-chicago-30);
 }
