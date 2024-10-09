@@ -22,21 +22,21 @@ def search():
             'results.html',
             episodes=recommended_episodes,
             query=keyword,
-            type='Search Results'
+            type='Search Results (sorted by topic and entity relevance)'
         )
     else:
         return render_template('error.html', message="Please enter a keyword.")
 
 @app.route('/speaker', methods=['POST'])
 def speaker():
-    speaker_name = request.form.get('speaker_name', ' (sorted by airtime)').strip()
+    speaker_name = request.form.get('speaker_name', '').strip()
     if speaker_name:
         recommended_episodes = recommendations.recommend_by_speaker(episodes, speakers, speaker_name)
         return render_template(
             'results.html',
             episodes=recommended_episodes,
             query=speaker_name,
-            type='Speaker Recommendations'
+            type='Speaker Recommendations (sorted by airtime)'
         )
     else:
         return render_template('error.html', message="Please enter a speaker's name.")
