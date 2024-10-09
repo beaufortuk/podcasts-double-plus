@@ -4,6 +4,8 @@ Podcasts-Double-Plus came about because I wanted to find more podcast episodes w
 
 For each episode, Podcasts-Double-Plus generates transcriptions (Whisper w/ CUDA), identifies speakers (PyTorch w/ CUDA) and generates taxonomies (LDA), so that you can find more episodes based on a given speaker (e.g. John Prideaux) or a theme (e.g. "AI"). 
 
+For whatever you enter it uses fuzzy logic and synonyms, to do the thinking for you ("Zanny/Zany").
+
 A web frontend (Flask) allows you to search for something to listen to!
 
 Instructions:
