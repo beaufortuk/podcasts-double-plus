@@ -1,6 +1,7 @@
 # app.py
 
 from flask import Flask, render_template, request
+import os
 import recommendations  # Import your recommendation module
 
 app = Flask(__name__)
@@ -51,4 +52,5 @@ def understand_more():
     return render_template('results.html', episodes=recommended_episodes, type='Understand More')
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0')
+    port = int(os.environ.get('PORT', 8080))  # Default to 8080 if PORT isn't set
+    app.run(host='0.0.0.0', port=port)
