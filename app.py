@@ -6,8 +6,14 @@ import recommendations  # Import your recommendation module
 
 app = Flask(__name__)
 
-# Load and integrate metadata once when the app starts
-episodes, speakers = recommendations.integrate_metadata()
+# Load preprocessed data once when the app starts
+try:
+    episodes, inverted_index, speakers = recommendations.load_preprocessed_data()
+except Exception as e:
+    print(f"Failed to load preprocessed data: {e}")
+    episodes = {}
+    inverted_index = {}
+    speakers = {}
 
 @app.route('/')
 def home():
@@ -17,12 +23,12 @@ def home():
 def search():
     keyword = request.form.get('keyword', '').strip()
     if keyword:
-        recommended_episodes = recommendations.recommend_by_keyword(episodes, keyword)
+        recommended_episodes = recommendations.recommend_by_keyword(episodes, inverted_index, keyword)
         return render_template(
             'results.html',
             episodes=recommended_episodes,
             query=keyword,
-            type='Search Results (sorted by topic and entity relevance)'
+            type='Search Results'
         )
     else:
         return render_template('error.html', message="Please enter a keyword.")

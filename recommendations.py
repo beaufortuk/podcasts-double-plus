@@ -4,185 +4,153 @@ import os
 import json
 import random
 from collections import defaultdict
-from difflib import SequenceMatcher
-from nltk.corpus import wordnet
-import nltk
-
-# Import configurations
+import Levenshtein  # Ensure this library is installed: pip install python-Levenshtein
 import config
 
-# Ensure necessary NLTK data is downloaded
-nltk.download('wordnet', quiet=True)
-nltk.download('omw-1.4', quiet=True)
+# Define the path to the preprocessed data
+PREPROCESSED_DATA_PATH = os.path.join(config.BASE_DIR, 'preprocessed_recommendations.json')
 
-# Load metadata
-def load_metadata():
-    base_dir = config.BASE_DIR
+# Initialize global variables to store preprocessed data
+episodes = {}
+inverted_index = {}
+speakers = {}
 
-    # Paths to metadata files
-    speakers_path = os.path.join(base_dir, 'speakers.json')
-    episode_topics_path = os.path.join(base_dir, 'episode_topics.json')
-    episode_entities_path = os.path.join(base_dir, 'episode_entities.json')
-    episode_sentiments_path = os.path.join(base_dir, 'episode_sentiments.json')
-    episode_humor_scores_path = os.path.join(base_dir, 'episode_humor_scores.json')
-    episode_metadata_path = os.path.join(base_dir, 'episode_metadata.json')  # Added
-
-    # Load data
-    with open(speakers_path, 'r', encoding='utf-8') as f:
-        speakers = json.load(f)
-
-    with open(episode_topics_path, 'r', encoding='utf-8') as f:
-        episode_topics = json.load(f)
-
-    with open(episode_entities_path, 'r', encoding='utf-8') as f:
-        episode_entities = json.load(f)
-
-    with open(episode_sentiments_path, 'r', encoding='utf-8') as f:
-        episode_sentiments = json.load(f)
-
-    with open(episode_humor_scores_path, 'r', encoding='utf-8') as f:
-        episode_humor_scores = json.load(f)
-
-    # Load episode metadata
-    with open(episode_metadata_path, 'r', encoding='utf-8') as f:
-        episode_metadata = json.load(f)
-
-    return speakers, episode_topics, episode_entities, episode_sentiments, episode_humor_scores, episode_metadata
-
-def integrate_metadata():
-    (
-        speakers,
-        episode_topics,
-        episode_entities,
-        episode_sentiments,
-        episode_humor_scores,
-        episode_metadata
-    ) = load_metadata()
-
-    # Create a dictionary for episodes using episode_id as the key
-    episodes = {}
-
-    # Create a mapping from episode_id to enclosure_url and title
-    id_to_url_title = {}
-    for ep in episode_metadata:
-        ep_id = ep.get('episode_id')
-        title = ep.get('title')
-        url = ep.get('enclosure_url')
-        if ep_id and title and url:
-            id_to_url_title[ep_id] = {'title': title, 'enclosure_url': url}
-
-    # Get a list of all episode_ids
-    episode_ids = set()
-    episode_ids.update(episode_topics.keys())
-    episode_ids.update(episode_entities.keys())
-    episode_ids.update(episode_sentiments.keys())
-    episode_ids.update(episode_humor_scores.keys())
-
-    # Initialize episodes dictionary using episode_id
-    for ep_id in episode_ids:
-        ep_info = id_to_url_title.get(ep_id, {})
-        episodes[ep_id] = {
-            'topics': episode_topics.get(ep_id, []),
-            'entities': episode_entities.get(ep_id, []),
-            'sentiments': episode_sentiments.get(ep_id, {}),
-            'humor_scores': episode_humor_scores.get(ep_id, {}),
-            'speakers': [],
-            'title': ep_info.get('title', 'Unknown Title'),
-            'enclosure_url': ep_info.get('enclosure_url', '#')
-        }
-
-    # Add speakers to episodes
-    for speaker_name, data in speakers.items():
-        for ep in data.get('episodes', []):
-            ep_id = ep.get('episode_id')  # Changed from 'episode_name' to 'episode_id'
-            if not ep_id:
-                continue  # Skip if 'episode_id' is missing
-
-            if ep_id in episodes:
-                episodes[ep_id]['speakers'].append(speaker_name)
-            else:
-                # If the episode_id is not already in episodes, add it
-                ep_info = id_to_url_title.get(ep_id, {})
-                episodes[ep_id] = {
-                    'topics': [],
-                    'entities': [],
-                    'sentiments': {},
-                    'humor_scores': {},
-                    'speakers': [speaker_name],
-                    'title': ep_info.get('title', 'Unknown Title'),
-                    'enclosure_url': ep_info.get('enclosure_url', '#')
-                }
-
-    return episodes, speakers
-
-def get_synonyms(keyword):
-    synonyms = set()
-    for syn in wordnet.synsets(keyword):
-        for lemma in syn.lemmas():
-            synonyms.add(lemma.name().replace('_', ' ').lower())
-    return synonyms
+def load_preprocessed_data():
+    """
+    Load preprocessed recommendation data from a JSON file.
+    This includes the episodes dictionary, inverted index, and speakers data for quick lookups.
+    
+    Returns:
+        tuple: A tuple containing the episodes dictionary, inverted index, and speakers dictionary.
+    """
+    global episodes, inverted_index, speakers
+    if not os.path.exists(PREPROCESSED_DATA_PATH):
+        raise FileNotFoundError(f"Preprocessed data file not found at {PREPROCESSED_DATA_PATH}. "
+                                "Ensure that you have run the preprocessing script.")
+    
+    with open(PREPROCESSED_DATA_PATH, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+    
+    episodes = data.get('episodes', {})
+    inverted_index = {k: set(v) for k, v in data.get('inverted_index', {}).items()}
+    speakers = data.get('speakers', {})
+    print(f"Loaded {len(episodes)} episodes, {len(inverted_index)} keywords, and {len(speakers)} speakers from preprocessed data.")
+    
+    return episodes, inverted_index, speakers
 
 def similarity(a, b):
-    return SequenceMatcher(None, a.lower(), b.lower()).ratio()
+    """
+    Calculate the similarity ratio between two strings using Levenshtein distance.
+    Returns a float between 0 and 1.
+    """
+    return Levenshtein.ratio(a.lower(), b.lower())
 
-def recommend_by_keyword(episodes, keyword):
+def recommend_by_keyword(episodes_dict, inverted_idx, keyword):
+    """
+    Recommend episodes based on a keyword search.
+    
+    Args:
+        episodes_dict (dict): Dictionary of episodes with their metadata.
+        inverted_idx (dict): Inverted index mapping keywords/synonyms to episode IDs.
+        keyword (str): The search keyword input by the user.
+    
+    Returns:
+        list: A list of recommended episodes, each represented as a dictionary with 'title' and 'url'.
+    """
     recommended_episodes = []
     relevance_scores = defaultdict(float)
 
     keyword_lower = keyword.lower()
-    synonyms = get_synonyms(keyword_lower)
-    all_keywords = set([keyword_lower]) | synonyms
+    
+    # Retrieve matching episode IDs from the inverted index
+    matched_episode_ids = inverted_idx.get(keyword_lower, set())
 
-    for ep_id, data in episodes.items():
+    # Iterate only over matched episodes to calculate relevance scores
+    for ep_id in matched_episode_ids:
+        data = episodes_dict.get(ep_id, {})
         score = 0.0
 
-        # Prepare data
-        topic_strings = [t[1] for t in data['topics']]  # Topic descriptions
-        entities = [ent[0] for ent in data['entities']]  # Entity texts
-        episode_title = data['title']
-        enclosure_url = data.get('enclosure_url', '#')  # Get URL
+        # Extract relevant fields
+        episode_title = data.get('title', '').lower()
+        topics = data.get('topics', [])
+        entities = data.get('entities', [])
+
+        # Extract topic descriptions correctly
+        # Assuming each topic is a list or tuple where the second element is the description
+        topic_strings = []
+        for topic in topics:
+            if isinstance(topic, (list, tuple)) and len(topic) > 1:
+                topic_description = topic[1].lower()
+                topic_strings.append(topic_description)
+            elif isinstance(topic, str):
+                topic_strings.append(topic.lower())
+            else:
+                # Handle unexpected formats gracefully
+                continue
+
+        # Extract entities correctly
+        # Assuming each entity is a list or tuple where the first element is the entity name
+        entity_strings = []
+        for entity in entities:
+            if isinstance(entity, (list, tuple)) and len(entity) > 0:
+                entity_name = entity[0].lower()
+                entity_strings.append(entity_name)
+            elif isinstance(entity, str):
+                entity_strings.append(entity.lower())
+            else:
+                # Handle unexpected formats gracefully
+                continue
 
         # Search in episode title
-        title_similarity = similarity(keyword_lower, episode_title.lower())
-        if title_similarity > 0.8:  # Threshold for fuzzy matching
+        title_similarity = similarity(keyword_lower, episode_title)
+        if title_similarity > 0.8:
             score += 4 * title_similarity  # Higher weight for title match
 
         # Search in topics
         for topic in topic_strings:
-            for kw in all_keywords:
-                topic_similarity = similarity(kw, topic.lower())
-                if topic_similarity > 0.7:
-                    score += 3 * topic_similarity  # Weight for topic match
+            topic_similarity = similarity(keyword_lower, topic)
+            if topic_similarity > 0.7:
+                score += 3 * topic_similarity  # Weight for topic match
 
         # Search in entities
-        for entity in entities:
-            for kw in all_keywords:
-                entity_similarity = similarity(kw, entity.lower())
-                if entity_similarity > 0.7:
-                    score += 2 * entity_similarity  # Weight for entity match
+        for entity in entity_strings:
+            entity_similarity = similarity(keyword_lower, entity)
+            if entity_similarity > 0.7:
+                score += 2 * entity_similarity  # Weight for entity match
 
         if score > 0:
             relevance_scores[ep_id] = score
 
-    # Sort episodes based on relevance score
+    # Sort episodes based on relevance score in descending order
     sorted_episodes = sorted(relevance_scores.items(), key=lambda x: x[1], reverse=True)
     
-    # Build list of recommended episodes with titles and URLs
+    # Build the list of recommended episodes with titles and URLs
     for ep in sorted_episodes:
         ep_id = ep[0]
-        ep_title = episodes[ep_id]['title']
-        ep_url = episodes[ep_id].get('enclosure_url', '#')
+        ep_title = episodes_dict.get(ep_id, {}).get('title', 'Unknown Title')
+        ep_url = episodes_dict.get(ep_id, {}).get('enclosure_url', '#')
         recommended_episodes.append({'title': ep_title, 'url': ep_url})
 
     return recommended_episodes
 
-def recommend_by_speaker(episodes, speakers, input_speaker_name):
+def recommend_by_speaker(episodes_dict, speakers_dict, input_speaker_name):
+    """
+    Recommend episodes based on a speaker's name.
+    
+    Args:
+        episodes_dict (dict): Dictionary of episodes with their metadata.
+        speakers_dict (dict): Dictionary of speakers with their associated episodes.
+        input_speaker_name (str): The speaker's name input by the user.
+    
+    Returns:
+        list: A list of recommended episodes featuring the best matching speaker.
+    """
     recommended_episodes = []
     relevance_scores = defaultdict(float)
 
     input_name_lower = input_speaker_name.lower()
 
-    for speaker_name, data in speakers.items():
+    for speaker_name, data in speakers_dict.items():
         speaker_name_lower = speaker_name.lower()
         # Tokenize speaker name and input name
         speaker_tokens = speaker_name_lower.split()
@@ -212,7 +180,7 @@ def recommend_by_speaker(episodes, speakers, input_speaker_name):
     best_speaker = sorted_speakers[0][0]
 
     # Collect episodes featuring the best matching speaker with durations
-    speaker_episodes = speakers[best_speaker].get('episodes', [])
+    speaker_episodes = speakers_dict[best_speaker].get('episodes', [])
 
     # Create a list of tuples (episode_id, duration_spoken)
     episode_durations = []
@@ -227,21 +195,40 @@ def recommend_by_speaker(episodes, speakers, input_speaker_name):
     # Extract sorted episode ids and URLs
     for ep in sorted_episodes:
         ep_id = ep[0]
-        ep_url = episodes.get(ep_id, {}).get('enclosure_url', '#')
-        ep_title = episodes.get(ep_id, {}).get('title', 'Unknown Title')
+        ep_url = episodes_dict.get(ep_id, {}).get('enclosure_url', '#')
+        ep_title = episodes_dict.get(ep_id, {}).get('title', 'Unknown Title')
         recommended_episodes.append({'title': ep_title, 'url': ep_url})
 
     return recommended_episodes
 
-def recommend_surprise_me(episodes):
-    if not episodes:
+def recommend_surprise_me(episodes_dict):
+    """
+    Recommend a random episode.
+    
+    Args:
+        episodes_dict (dict): Dictionary of episodes with their metadata.
+    
+    Returns:
+        list: A list containing a single randomly selected episode.
+    """
+    if not episodes_dict:
         return []
-    ep_id = random.choice(list(episodes.keys()))
-    ep_title = episodes[ep_id]['title']
-    ep_url = episodes[ep_id].get('enclosure_url', '#')
+    ep_id = random.choice(list(episodes_dict.keys()))
+    ep_title = episodes_dict[ep_id].get('title', 'Unknown Title')
+    ep_url = episodes_dict[ep_id].get('enclosure_url', '#')
     return [{'title': ep_title, 'url': ep_url}]
 
-def recommend_explore_more(episodes, user_keywords):
+def recommend_explore_more(episodes_dict, user_keywords):
+    """
+    Recommend episodes based on a list of user-provided keywords.
+    
+    Args:
+        episodes_dict (dict): Dictionary of episodes with their metadata.
+        user_keywords (list): List of keywords input by the user.
+    
+    Returns:
+        list: A list of recommended episodes based on the provided keywords.
+    """
     recommended_episodes = []
     relevance_scores = defaultdict(float)
 
@@ -251,17 +238,40 @@ def recommend_explore_more(episodes, user_keywords):
         synonyms = get_synonyms(kw)
         all_keywords.update(synonyms)
 
-    for ep_id, data in episodes.items():
+    for ep_id, data in episodes_dict.items():
         score = 0.0
 
         # Prepare data
-        topic_strings = [t[1] for t in data['topics']]
-        entities = [ent[0] for ent in data['entities']]
-        episode_title = data['title']
-        enclosure_url = data.get('enclosure_url', '#')
+        topics = data.get('topics', [])
+        entities = data.get('entities', [])
+        episode_title = data.get('title', '').lower()
+
+        # Extract topic descriptions correctly
+        topic_strings = []
+        for topic in topics:
+            if isinstance(topic, (list, tuple)) and len(topic) > 1:
+                topic_description = topic[1].lower()
+                topic_strings.append(topic_description)
+            elif isinstance(topic, str):
+                topic_strings.append(topic.lower())
+            else:
+                # Handle unexpected formats gracefully
+                continue
+
+        # Extract entities correctly
+        entity_strings = []
+        for entity in entities:
+            if isinstance(entity, (list, tuple)) and len(entity) > 0:
+                entity_name = entity[0].lower()
+                entity_strings.append(entity_name)
+            elif isinstance(entity, str):
+                entity_strings.append(entity.lower())
+            else:
+                # Handle unexpected formats gracefully
+                continue
 
         # Combine all text for matching
-        combined_text = ' '.join(topic_strings + entities + [episode_title]).lower()
+        combined_text = ' '.join(topic_strings + entity_strings + [episode_title])
 
         for kw in all_keywords:
             # Fuzzy matching
@@ -277,24 +287,61 @@ def recommend_explore_more(episodes, user_keywords):
     
     for ep in sorted_episodes[:5]:
         ep_id = ep[0]
-        ep_title = episodes[ep_id]['title']
-        ep_url = episodes[ep_id].get('enclosure_url', '#')
+        ep_title = episodes_dict.get(ep_id, {}).get('title', 'Unknown Title')
+        ep_url = episodes_dict.get(ep_id, {}).get('enclosure_url', '#')
         recommended_episodes.append({'title': ep_title, 'url': ep_url})
 
     return recommended_episodes
 
-def recommend_understand_more(episodes):
-    # Recommend episodes with high compound sentiment scores (assuming they are more in-depth)
+def recommend_understand_more(episodes_dict):
+    """
+    Recommend episodes with high compound sentiment scores, assuming they are more in-depth.
+    
+    Args:
+        episodes_dict (dict): Dictionary of episodes with their metadata.
+    
+    Returns:
+        list: A list of recommended episodes with high compound sentiment scores.
+    """
+    # Sort episodes based on the 'compound' sentiment score in descending order
     sorted_episodes = sorted(
-        episodes.items(),
-        key=lambda x: x[1]['sentiments'].get('compound', 0),
+        episodes_dict.items(),
+        key=lambda x: x[1].get('sentiments', {}).get('compound', 0),
         reverse=True
     )
     top_episodes = sorted_episodes[:5]  # Top 5 episodes
     recommended_episodes = []
     for ep in top_episodes:
         ep_id = ep[0]
-        ep_title = ep[1]['title']
+        ep_title = ep[1].get('title', 'Unknown Title')
         ep_url = ep[1].get('enclosure_url', '#')
         recommended_episodes.append({'title': ep_title, 'url': ep_url})
     return recommended_episodes
+
+def get_synonyms(keyword):
+    """
+    Generate a set of synonyms for a given keyword using WordNet.
+    
+    Args:
+        keyword (str): The keyword for which to generate synonyms.
+    
+    Returns:
+        set: A set of synonyms excluding the original keyword.
+    """
+    from nltk.corpus import wordnet
+    synonyms = set()
+    for syn in wordnet.synsets(keyword):
+        for lemma in syn.lemmas():
+            synonym = lemma.name().replace('_', ' ').lower()
+            if synonym != keyword.lower():
+                synonyms.add(synonym)
+    return synonyms
+
+# Load preprocessed data when the module is imported
+try:
+    episodes, inverted_index, speakers = load_preprocessed_data()
+except Exception as e:
+    print(f"Error loading preprocessed data: {e}")
+    episodes = {}
+    inverted_index = {}
+    speakers = {}
