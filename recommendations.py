@@ -200,7 +200,7 @@ def recommend_by_speaker(episodes_dict, speakers_dict, input_speaker_name):
         recommended_episodes.append({'title': ep_title, 'url': ep_url})
 
     return recommended_episodes
-
+'''
 def recommend_surprise_me(episodes_dict):
     """
     Recommend a random episode.
@@ -336,6 +336,8 @@ def get_synonyms(keyword):
             if synonym != keyword.lower():
                 synonyms.add(synonym)
     return synonyms
+
+'''
 
 # Load preprocessed data when the module is imported
 try:
